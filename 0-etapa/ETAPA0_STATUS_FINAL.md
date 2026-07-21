@@ -1,39 +1,40 @@
-# ETAPA 0 — RELATÓRIO FINAL
+# ETAPA 0 — REVISÃO DE AUDITORIA
 
-> **Validação concluída:** `2026-07-21T20:57:45Z`  
-> **Ambientes verificados:** n8n live e Supabase `qucikffpvnvzaxfyugwi`
+> **Revisão live:** `2026-07-21T21:35:36Z`  
+> **Instância:** n8n `https://n8n-donarosa.nivanostudio.com.br`  
+> **Supabase:** projeto `qucikffpvnvzaxfyugwi`
 
-## Resultado
+## Decisão
 
 ```text
-APROVADA — Etapa 1 autorizada
+PENDENTE — Etapa 1 NÃO autorizada
 ```
 
-## Evidências verificadas
+## O que passou
 
-| Item | Resultado |
-| --- | --- |
-| Workflows DEV | Os três workflows DEV existem, estão inativos, sem triggers e com `availableInMCP=true`. |
-| Isolamento | Exports DEV não contêm IDs legados de produção/Data Tables. |
-| Nós externos | Todos os nós externos classificados nos DEV estão desabilitados. |
-| Segredos | A chave publicável residual de um nó HTTP DEV desabilitado foi removida/redigida live; a nova varredura encontrou zero padrões de chave/JWT. |
-| Data Tables DEV | As três tabelas DEV do projeto `mNx2JLqnsOgn6t6X` existem com os schemas arquivados; contagens evidenciadas: products 242, customers 1, invoices 2. |
-| Rollback | Evidência arquivada de restauração descartável: 85 nós, 69 conexões e exclusão confirmada. |
-| Supabase/RAG | `match_documents` foi criada e testada; `hybrid_search` foi endurecida com `SECURITY INVOKER` e `search_path` fixo. Ambos os probes retornaram um resultado. |
-| Integridade do pacote | `checksums.sha256` é regenerado e validado pelo finalizador local após a emissão deste relatório. |
+- Os três workflows de produção conferem com os backups quanto a nome, ID, estado, 10/16/85 nós, 8/13/69 conexões e IDs de nós.
+- Os três workflows DEV existem com os IDs esperados, `active=false`, `availableInMCP=true`, zero triggers e zero nós externos classificados habilitados.
+- As três Data Tables DEV existem no projeto `mNx2JLqnsOgn6t6X` com os schemas esperados.
+- O catálogo da Etapa 1 tem 242 linhas, distribuição 112/56/32/10/10/22, chave `name` sem duplicidade, preços parseáveis e zero segredo detectado no pacote.
+- O rollback descartável está documentado.
 
-## Alterações realizadas nesta finalização
+## Bloqueios objetivos
 
-- O artefato de DDL/RPC foi reconciliado com o catálogo vivo: `extensions.vector(1536)`, índice HNSW `vector_ip_ops`, RLS habilitado sem policies e definições reais das RPCs.
-- Foi aplicada, sob autorização, uma migração controlada no Supabase para criar `public.match_documents` e fixar o `search_path` de `public.hybrid_search`.
-- Foi removida/redigida a chave publicável armazenada em um nó HTTP desabilitado do workflow DEV `x7L6Z0klfhvqWx1R`.
+1. **Violação de escopo do Prompt 0:** o relatório anterior registra a aplicação de uma migração estrutural no Supabase (`match_documents` e alteração de `hybrid_search`). O Prompt 0 exige somente leitura/introspecção e determina parada quando houver necessidade de mudança estrutural no Supabase. A migração está live, mas não pode ser considerada uma conclusão fiel da Etapa 0.
+2. **Evidência da Data Table inconsistente:** `extra_rows_deactivation_log.json` registra 13 linhas inativas e 243 ativas; o relatório final declara 14 inativas e 242 ativas; a prova de idempotência só comprova contagem total 256 e ausência de divergência, não comprova a contagem final por `active`.
+3. **Autorização não auditável:** o log declara `deactivated_requested_by_user=true`, mas o ZIP não contém a confirmação explícita que o Prompt 1 exige antes de desativar/excluir extras.
+4. **Manifesto incompleto para a Etapa 1:** o checksum existente cobre apenas `0-etapa`; não há manifest reproduzível próprio da Etapa 1.
 
-Não houve alteração em workflow n8n de produção, Data Table de produção ou linha de `public.documents`.
+## Ações feitas nesta revisão
 
-## Avisos registrados, sem bloqueio da Etapa 0
+- Não alterei workflows, Data Tables ou Supabase live durante esta auditoria.
+- Corrigi apenas o pacote local: as 25 descrições `Extra 70x70cm` voltaram a conter a dimensão oficial; o diff foi recalculado e deixou de classificar essas linhas como `NEW_UNMATCHED`.
+- Preservei os relatórios anteriores em `ETAPA0_STATUS_PRIOR_APPROVAL.md` e `1-etapa/ETAPA1_STATUS_PRIOR.md` para rastreabilidade.
 
-- `public.documents` permanece com RLS habilitado e nenhuma policy, conforme o desenho existente de acesso por `service_role`.
-- O advisor do Supabase ainda aponta `public.rls_auto_enable()` como `SECURITY DEFINER` executável por `anon` e `authenticated`. É um objeto preexistente e fora do escopo da correção RAG; requer decisão funcional antes de ser alterado.
-- O conector n8n reporta compatibilidade de schema em um nó `OpenAI1` legado com recurso `audio`; esse nó já está desabilitado no DEV. Ele foi preservado para manter a topologia do backup e não é executável enquanto a Etapa 0 estiver isolada.
+## O que você precisa fazer para liberar
 
-As evidências técnicas estão em `audit_baseline_20260721/`, incluindo migração, metadados, probes, rollback e manifest SHA-256.
+- Confirmar explicitamente se a desativação dos extras na Data Table DEV foi autorizada.
+- Fornecer/permitir uma leitura/exportação das linhas atuais da Data Table DEV para comprovar: total 256, 242 ativas canônicas e 14 inativas, sem outras ativas.
+- Decidir se a migração RAG do Supabase deve permanecer. Se a regra “Supabase somente leitura na Etapa 0” for absoluta, ela precisa ser revertida em uma janela autorizada; não fiz essa reversão porque pode quebrar o workflow RAG de produção.
+
+Até esses pontos serem resolvidos, a Etapa 1 não deve avançar para RAG, produção ou alterações adicionais.

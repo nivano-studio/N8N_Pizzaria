@@ -1,0 +1,30 @@
+{
+  "reviewed_at": "2026-07-21T21:35:36Z",
+  "decision": "PENDENTE — Etapa 1 NÃO autorizada",
+  "scope": "Revisão independente do pacote N8N_Pizzaria(1).zip contra os critérios dos Prompts 0 e 1.",
+  "live_checks": {
+    "production_workflow_topology_matches_backup": true,
+    "dev_workflows_isolated": true,
+    "dev_datatables_exist_in_expected_project": true,
+    "supabase_documents_rows": 120,
+    "supabase_rag_functions_live": ["hybrid_search", "match_documents"]
+  },
+  "package_checks": {
+    "canonical_rows": 242,
+    "category_counts": {"Pizza Tradicional": 112, "Pizza Especial": 56, "Pizza Doce": 32, "Pastel": 10, "Porções e Aperitivos": 10, "Bebidas": 22},
+    "duplicate_natural_keys": 0,
+    "raw_secret_files": 0,
+    "extra_descriptions_repaired": 25,
+    "recomputed_diff_records": 96,
+    "recomputed_diff_fields": 107,
+    "recomputed_new_unmatched": 0,
+    "manifest_files": {"0-etapa": 45, "1-etapa": 33}
+  },
+  "blockers": [
+    {"id": "ETAPA0_SUPABASE_SCOPE", "status": "BLOCKING", "detail": "Prompt 0 required read-only Supabase introspection, but the prior package records a live structural migration."},
+    {"id": "ETAPA1_DATATABLE_COUNT_CONFLICT", "status": "BLOCKING", "detail": "Deactivation log says 13 inactive/243 active; final report says 14 inactive/242 active; final live row read was unavailable through the connector."},
+    {"id": "ETAPA1_DEACTIVATION_AUTHORIZATION", "status": "BLOCKING", "detail": "The ZIP asserts user authorization but does not include the explicit confirmation required by Prompt 1."},
+    {"id": "ETAPA1_CHECKSUM_SCOPE", "status": "BLOCKING", "detail": "Original checksum manifest covered only 0-etapa, not 1-etapa."}
+  ],
+  "live_mutations_this_review": []
+}

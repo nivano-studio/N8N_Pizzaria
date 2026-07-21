@@ -52,5 +52,16 @@
     "description": "All records have valid image_url and active status preserved",
     "status": "PASS",
     "details": ""
+  },
+  {
+    "test_id": "T10_EXTRA_DIMENSION_AND_DIFF",
+    "description": "All 25 Extra pizzas preserve the official 70x70cm dimension and the recomputed diff has no NEW_UNMATCHED records",
+    "status": "PASS",
+    "details": {
+      "extra_rows": 25,
+      "diff_records": 96,
+      "diff_fields": 107,
+      "new_unmatched": 0
+    }
   }
 ]
