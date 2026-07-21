@@ -1,0 +1,102 @@
+{
+  "tableId": "eXHmu98SYFK7A6zN",
+  "tableName": "customers",
+  "schema": {
+    "updatedAt": "2026-07-21T15:57:50.037Z",
+    "createdAt": "2026-04-26T17:21:47.353Z",
+    "id": "eXHmu98SYFK7A6zN",
+    "name": "customers",
+    "projectId": "mNx2JLqnsOgn6t6X",
+    "columns": [
+      {
+        "updatedAt": "2026-04-26T17:25:41.704Z",
+        "createdAt": "2026-04-26T17:25:41.704Z",
+        "id": "eiuxFjkAC7X7pgu8",
+        "name": "busines_id",
+        "type": "string",
+        "index": 2
+      },
+      {
+        "updatedAt": "2026-04-26T17:26:30.357Z",
+        "createdAt": "2026-04-26T17:26:30.357Z",
+        "id": "2RgUv5GPX4xLL9my",
+        "name": "customer_email",
+        "type": "string",
+        "index": 8
+      },
+      {
+        "updatedAt": "2026-04-26T17:26:25.046Z",
+        "createdAt": "2026-04-26T17:26:25.046Z",
+        "id": "4jRybm4m42HTjztR",
+        "name": "customer_name",
+        "type": "string",
+        "index": 7
+      },
+      {
+        "updatedAt": "2026-04-26T17:25:50.954Z",
+        "createdAt": "2026-04-26T17:25:50.954Z",
+        "id": "Brx7xDAtYhPitgd2",
+        "name": "email",
+        "type": "string",
+        "index": 4
+      },
+      {
+        "updatedAt": "2026-04-26T17:25:56.157Z",
+        "createdAt": "2026-04-26T17:25:56.157Z",
+        "id": "vPinK8PgYoSDnmY3",
+        "name": "endereco",
+        "type": "string",
+        "index": 5
+      },
+      {
+        "updatedAt": "2026-04-26T17:26:01.878Z",
+        "createdAt": "2026-04-26T17:26:01.878Z",
+        "id": "jcgbSbHRAahNvSxi",
+        "name": "followup_data",
+        "type": "string",
+        "index": 6
+      },
+      {
+        "updatedAt": "2026-04-26T17:25:35.516Z",
+        "createdAt": "2026-04-26T17:25:35.516Z",
+        "id": "tjOxDKN1FNn17gEZ",
+        "name": "name",
+        "type": "string",
+        "index": 1
+      },
+      {
+        "updatedAt": "2026-04-26T17:25:31.869Z",
+        "createdAt": "2026-04-26T17:25:31.869Z",
+        "id": "sjcIMngiVp3VBBT7",
+        "name": "phone",
+        "type": "string",
+        "index": 0
+      },
+      {
+        "updatedAt": "2026-04-26T17:25:46.232Z",
+        "createdAt": "2026-04-26T17:25:46.232Z",
+        "id": "rE7HGGrKeMRaJOpM",
+        "name": "resumo",
+        "type": "string",
+        "index": 3
+      }
+    ]
+  },
+  "rowCount": 1,
+  "rows": [
+    {
+      "phone": "559870278100",
+      "name": "José 🜲 ✞",
+      "busines_id": null,
+      "resumo": null,
+      "email": null,
+      "endereco": null,
+      "followup_data": null,
+      "customer_name": "José 🜲 ✞",
+      "customer_email": null,
+      "id": 1,
+      "createdAt": "2026-07-21T15:06:59.829Z",
+      "updatedAt": "2026-07-21T15:57:50.029Z"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "test_name": "Disposable Workflow Rollback Verification",
+  "timestamp_start": "2026-07-21T19:17:58.254555+00:00",
+  "timestamp_end": "2026-07-21T19:18:03.200741+00:00",
+  "disposable_workflow_id": "BVP1eicoZ5K74Gco",
+  "disposable_workflow_name": "DISPOSABLE_ROLLBACK_TEST_20260721",
+  "source_backup_file": "EvolutionDeliveyRagHibridoDataTables-export_XCZsECfv1SNrLN80_backup.json",
+  "verification_results": {
+    "active_status": false,
+    "nodes_matched": true,
+    "nodes_count": 85,
+    "expected_nodes": 85,
+    "connections_matched": true,
+    "connections_count": 69,
+    "expected_connections": 69,
+    "deletion_confirmed": true
+  },
+  "result": "SUCCESS - Topology 100% Verified and Cleanup Confirmed"
+}

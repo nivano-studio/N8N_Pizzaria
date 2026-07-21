@@ -1,0 +1,89 @@
+{
+  "validator_1_json_validity": {
+    "status": "PASS",
+    "details": "Checked 14 JSON files successfully."
+  },
+  "validator_2_3_dev_workflow_live_status": {
+    "status": "PASS",
+    "details": [
+      {
+        "id": "fq4UCwZ6KOOXm0NY",
+        "name": "ImportPdfToTable__DEV_DONA_ROSA_20260721",
+        "active": false,
+        "availableInMCP": true
+      },
+      {
+        "id": "NdproODtUwjO9ZZ5",
+        "name": "ToolsProductsDataTableToRag__DEV_DONA_ROSA_20260721",
+        "active": false,
+        "availableInMCP": true
+      },
+      {
+        "id": "x7L6Z0klfhvqWx1R",
+        "name": "EvolutionDeliveyRagHibridoDataTables-export__DEV_DONA_ROSA_20260721",
+        "active": false,
+        "availableInMCP": true
+      }
+    ]
+  },
+  "validator_4_zero_prod_ids_in_dev": {
+    "status": "PASS",
+    "found_prod_references": []
+  },
+  "validator_5_zero_enabled_external_nodes": {
+    "status": "PASS",
+    "enabled_external_nodes": []
+  },
+  "validator_6_zero_plain_text_secrets": {
+    "status": "PASS",
+    "files_with_secrets": []
+  },
+  "validator_7_dev_datatables_status": {
+    "status": "PASS",
+    "datatables": [
+      {
+        "id": "yEPAXmN9AQQMn8IU",
+        "name": "products__DEV_DONA_ROSA_20260721",
+        "projectId": "mNx2JLqnsOgn6t6X",
+        "columns_count": 6
+      },
+      {
+        "id": "DacGOSDHaMAFF3Zq",
+        "name": "customers__DEV_DONA_ROSA_20260721",
+        "projectId": "mNx2JLqnsOgn6t6X",
+        "columns_count": 9
+      },
+      {
+        "id": "0iESK6xkLcCfCNUu",
+        "name": "invoices__DEV_DONA_ROSA_20260721",
+        "projectId": "mNx2JLqnsOgn6t6X",
+        "columns_count": 7
+      }
+    ]
+  },
+  "validator_8_rollback_evidence": {
+    "status": "PASS",
+    "evidence_file": "audit_baseline_20260721\\rollback_test_evidence.json"
+  },
+  "validator_9_supabase_ddl_and_rpc_archived": {
+    "status": "PASS",
+    "files": [
+      {
+        "file": "documents_metadata.json",
+        "status": "VALIDATED"
+      },
+      {
+        "file": "rpc_definitions.sql",
+        "status": "VALIDATED"
+      },
+      {
+        "file": "supabase_schema_full.sql",
+        "status": "VALIDATED"
+      },
+      {
+        "file": "README.md",
+        "status": "VALIDATED"
+      }
+    ]
+  }
+}

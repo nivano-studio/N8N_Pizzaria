@@ -1,0 +1,4 @@
+﻿id,customer_name,invoice_number,phone,status,description,total,forma_pagamento,createdAt,updatedAt
+1,Jose,2026-07-13-1,29d5c7e153b04f0ab12fa7f35c858c1d,rascunho,1 Pizza G Calabresa e Mussarela + 1 Coca-Cola Original 2L,"65,00",,2026-07-13T19:05:29.652Z,2026-07-13T19:07:51.436Z
+2,Jose,2026-07-13-1,1f3a7bbb56e544adb7e6010a375105d7,rascunho,"1 Pizza G de Calabresa e Mussarela - R$ 55,00
+1 Coca-Cola Zero 2L - R$ 15,00","70,00",,2026-07-13T19:19:48.804Z,2026-07-13T19:33:16.461Z

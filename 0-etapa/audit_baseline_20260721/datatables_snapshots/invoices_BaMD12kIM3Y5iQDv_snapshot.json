@@ -1,0 +1,100 @@
+{
+  "tableId": "BaMD12kIM3Y5iQDv",
+  "tableName": "invoices",
+  "schema": {
+    "updatedAt": "2026-07-13T19:33:16.471Z",
+    "createdAt": "2026-04-26T17:21:51.826Z",
+    "id": "BaMD12kIM3Y5iQDv",
+    "name": "invoices",
+    "projectId": "mNx2JLqnsOgn6t6X",
+    "columns": [
+      {
+        "updatedAt": "2026-04-26T17:27:05.057Z",
+        "createdAt": "2026-04-26T17:27:05.057Z",
+        "id": "aWD8JARgxI23jbFN",
+        "name": "customer_name",
+        "type": "string",
+        "index": 0
+      },
+      {
+        "updatedAt": "2026-04-26T17:27:25.467Z",
+        "createdAt": "2026-04-26T17:27:25.467Z",
+        "id": "81zVgtu8XNGAaDiZ",
+        "name": "description",
+        "type": "string",
+        "index": 4
+      },
+      {
+        "updatedAt": "2026-04-26T17:27:34.714Z",
+        "createdAt": "2026-04-26T17:27:34.714Z",
+        "id": "N5vL4UoA3sO9psPQ",
+        "name": "forma_pagamento",
+        "type": "string",
+        "index": 6
+      },
+      {
+        "updatedAt": "2026-04-26T17:27:08.976Z",
+        "createdAt": "2026-04-26T17:27:08.976Z",
+        "id": "sxzdOWAkCEKxeSgK",
+        "name": "invoice_number",
+        "type": "string",
+        "index": 1
+      },
+      {
+        "updatedAt": "2026-04-26T17:27:15.499Z",
+        "createdAt": "2026-04-26T17:27:15.499Z",
+        "id": "a1tLdJaVR9T3EK1B",
+        "name": "phone",
+        "type": "string",
+        "index": 2
+      },
+      {
+        "updatedAt": "2026-04-26T17:27:19.815Z",
+        "createdAt": "2026-04-26T17:27:19.815Z",
+        "id": "mezuFgifghC948kI",
+        "name": "status",
+        "type": "string",
+        "index": 3
+      },
+      {
+        "updatedAt": "2026-04-26T17:27:29.661Z",
+        "createdAt": "2026-04-26T17:27:29.661Z",
+        "id": "UMdz19UaEL8i5Rl6",
+        "name": "total",
+        "type": "string",
+        "index": 5
+      }
+    ]
+  },
+  "rowCount": 2,
+  "rows": [
+    {
+      "customer_name": "Jose",
+      "invoice_number": "2026-07-13-1",
+      "phone": "29d5c7e153b04f0ab12fa7f35c858c1d",
+      "status": "rascunho",
+      "description": "1 Pizza G Calabresa e Mussarela + 1 Coca-Cola Original 2L",
+      "total": "65,00",
+      "forma_pagamento": null,
+      "fulfillment_type": null,
+      "endereco": null,
+      "id": 1,
+      "createdAt": "2026-07-13T19:05:29.652Z",
+      "updatedAt": "2026-07-13T19:07:51.436Z"
+    },
+    {
+      "customer_name": "Jose",
+      "invoice_number": "2026-07-13-1",
+      "phone": "1f3a7bbb56e544adb7e6010a375105d7",
+      "status": "rascunho",
+      "description": "1 Pizza G de Calabresa e Mussarela - R$ 55,00\n1 Coca-Cola Zero 2L - R$ 15,00",
+      "total": "70,00",
+      "forma_pagamento": null,
+      "fulfillment_type": null,
+      "endereco": null,
+      "id": 2,
+      "createdAt": "2026-07-13T19:19:48.804Z",
+      "updatedAt": "2026-07-13T19:33:16.461Z"
+    }
+  ]
+}

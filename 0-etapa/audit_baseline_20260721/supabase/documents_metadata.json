@@ -1,0 +1,79 @@
+{
+  "introspection_timestamp": "2026-07-21T20:08:33.227153+00:00",
+  "schema": "public",
+  "table": "documents",
+  "columns": [
+    {
+      "column_name": "id",
+      "data_type": "bigint",
+      "is_nullable": false,
+      "default_expression": "nextval('documents_id_seq'::regclass)",
+      "is_primary_key": true
+    },
+    {
+      "column_name": "content",
+      "data_type": "text",
+      "is_nullable": true,
+      "default_expression": null
+    },
+    {
+      "column_name": "metadata",
+      "data_type": "jsonb",
+      "is_nullable": true,
+      "default_expression": "'{}'::jsonb"
+    },
+    {
+      "column_name": "fts",
+      "data_type": "tsvector",
+      "is_nullable": true,
+      "default_expression": "to_tsvector('english'::regconfig, COALESCE(content, ''::text))"
+    },
+    {
+      "column_name": "embedding",
+      "data_type": "USER-DEFINED (vector(1536))",
+      "is_nullable": true,
+      "default_expression": null,
+      "dimension": 1536,
+      "metric": "cosine"
+    }
+  ],
+  "indexes": [
+    {
+      "indexname": "documents_pkey",
+      "indexdef": "CREATE UNIQUE INDEX documents_pkey ON public.documents USING btree (id)"
+    },
+    {
+      "indexname": "documents_embedding_idx",
+      "indexdef": "CREATE INDEX documents_embedding_idx ON public.documents USING hnsw (embedding vector_cosine_ops)"
+    },
+    {
+      "indexname": "documents_fts_idx",
+      "indexdef": "CREATE INDEX documents_fts_idx ON public.documents USING gin (fts)"
+    }
+  ],
+  "constraints": [
+    {
+      "conname": "documents_pkey",
+      "contype": "p",
+      "constraint_definition": "PRIMARY KEY (id)"
+    }
+  ],
+  "policies": [
+    {
+      "policyname": "Allow public read access",
+      "cmd": "SELECT",
+      "roles": [
+        "public"
+      ],
+      "qual": "true"
+    },
+    {
+      "policyname": "Allow service_role full access",
+      "cmd": "ALL",
+      "roles": [
+        "service_role"
+      ],
+      "qual": "(auth.role() = 'service_role'::text)"
+    }
+  ]
+}

@@ -1,0 +1,437 @@
+{
+  "updatedAt": "2026-07-21T16:27:17.205Z",
+  "createdAt": "2026-04-25T21:44:33.404Z",
+  "id": "vpPp34JIYrReJxM5",
+  "name": "ImportPdfToTable",
+  "description": "PizzariaDonaRosa",
+  "active": true,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "3b911968-e031-4606-9bb3-4777d9aa30e1",
+              "name": "text",
+              "value": "={{ $json.text }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1536,
+        144
+      ],
+      "id": "c67233c9-ca4b-4817-b994-6b61f42d9ad1",
+      "name": "Config"
+    },
+    {
+      "parameters": {
+        "content": "\n# ImportPdfToTable\n## Esta função tranforma um PDF com produtos em um baco de dados no DATATABLES do n8n\n\n# Nomes do Fluxos\n## Renomeie todos o fluxos para o nomes sugeridos para não se perder\n\n# Config\n## Utilize o NÓ 'config' para configurar as URLS e tabelas do STRAPI onde os dados serão armazenados\n\n# Comunidade\n## Participe para resolver problemas e tirar dúvidas:\n## https://comunidade.aalencar.com.br",
+        "height": 1300,
+        "width": 772
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "565c212c-2889-45e8-a7e0-77a9990a5c2d",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "formTitle": "UploadPDF",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "file",
+              "fieldType": "file",
+              "multipleFiles": false,
+              "acceptFileTypes": "pdf,csv",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.3,
+      "position": [
+        944,
+        144
+      ],
+      "id": "d7bb9ead-ad49-47de-901e-0750c8af9c4b",
+      "name": "On form submission",
+      "webhookId": "3c7d07e9-f917-4ba2-a167-4f1a98ae6f2e"
+    },
+    {
+      "parameters": {
+        "operation": "pdf",
+        "binaryPropertyName": "file",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        1248,
+        144
+      ],
+      "id": "ce9afdbb-723e-4f6e-bd86-749c7d8f8a50",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1-mini",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1-MINI"
+        },
+        "responses": {
+          "values": [
+            {
+              "content": "={{ $json.content }}"
+            },
+            {
+              "role": "system",
+              "content": "Leia o markdown inteiro e crie um json com  a lista de todos os produtos contidos no pdf com as colunas: name, price, description, category"
+            }
+          ]
+        },
+        "builtInTools": {},
+        "options": {
+          "textFormat": {
+            "textOptions": {
+              "type": "json_schema",
+              "name": "object",
+              "schema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"restaurante\": { \"type\": \"string\" },\n    \"produtos\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"name\": { \"type\": \"string\" },\n          \"price\": { \"type\": \"number\" },\n          \"description\": { \"type\": \"string\" },\n          \"category\": { \"type\": \"string\" }\n        },\n        \"required\": [\"name\", \"price\", \"description\", \"category\"],\n        \"additionalProperties\": false\n      }\n    }\n  },\n  \"required\": [\"restaurante\", \"produtos\"],\n  \"additionalProperties\": false\n}",
+              "description": "json com a lista de produtos do restaurante"
+            }
+          }
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2,
+      "position": [
+        2336,
+        144
+      ],
+      "id": "88ef1e8e-926b-4741-860d-287a603edfc0",
+      "name": "Message a model",
+      "credentials": {
+        "openAiApi": {
+          "id": "2qdiJ9T6Vo8DpIMI",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1177b304-d33c-4b16-a442-d82ff0fb5c5a",
+              "name": "products",
+              "value": "={{ $json.output.first().content.first().text.produtos || [] }}",
+              "type": "array"
+            },
+            {
+              "id": "934ec3a2-4223-43e0-983a-6bbac62cb25b",
+              "name": "title",
+              "value": "={{ $json.output[0].content[0].text.restaurante }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2912,
+        144
+      ],
+      "id": "104e90e0-8b1c-4a21-a6d5-90dfa1b079e1",
+      "name": "SetData"
+    },
+    {
+      "parameters": {
+        "operation": "upsert",
+        "dataTableId": {
+          "__rl": true,
+          "value": "hICNaSYRSMkjHiTT",
+          "mode": "list",
+          "cachedResultName": "products",
+          "cachedResultUrl": "/projects/mNx2JLqnsOgn6t6X/datatables/hICNaSYRSMkjHiTT"
+        },
+        "filters": {
+          "conditions": [
+            {
+              "keyName": "name",
+              "keyValue": "={{ $json.name }}"
+            }
+          ]
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "active": true,
+            "name": "={{ $json.name }}",
+            "price": "={{ $json.price }}",
+            "description": "={{ $json.description }}",
+            "category": "={{ $json.category }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "name",
+              "displayName": "name",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "price",
+              "displayName": "price",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "description",
+              "displayName": "description",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "active",
+              "displayName": "active",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "boolean",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "image_url",
+              "displayName": "image_url",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": true
+            },
+            {
+              "id": "category",
+              "displayName": "category",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1,
+      "position": [
+        3616,
+        144
+      ],
+      "id": "2288eae5-9ac6-41d9-ada6-953b3e882036",
+      "name": "Upsert row(s)"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "products",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        3264,
+        144
+      ],
+      "id": "7ea0d4e3-e5ec-4806-8dca-f242a261c67d",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Obtém o texto de entrada\nconst text = $input.item.json.text;\n\n// Valida se existe texto\nif (!text || typeof text !== 'string') {\n  throw new Error('Campo \"text\" não encontrado ou inválido na entrada');\n}\n\n// Calcula o tamanho de cada bloco\nconst totalLength = text.length;\nconst blockSize = Math.ceil(totalLength / 3);\n\n// Divide o texto em 3 blocos\nconst blocks = [];\nfor (let i = 0; i < 3; i++) {\n  const start = i * blockSize;\n  const end = Math.min(start + blockSize, totalLength);\n  blocks.push(text.substring(start, end));\n}\n\n// Retorna os 3 blocos como itens separados\nreturn [\n  {\n    json: {\n      blockNumber: 1,\n      content: blocks[0],\n      totalBlocks: 3,\n      blockSize: blocks[0].length,\n      originalSize: totalLength\n    }\n  },\n  {\n    json: {\n      blockNumber: 2,\n      content: blocks[1],\n      totalBlocks: 3,\n      blockSize: blocks[1].length,\n      originalSize: totalLength\n    }\n  },\n  {\n    json: {\n      blockNumber: 3,\n      content: blocks[2],\n      totalBlocks: 3,\n      blockSize: blocks[2].length,\n      originalSize: totalLength\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1776,
+        144
+      ],
+      "id": "3c5b4013-dc7a-4b63-8781-a665a0eb181e",
+      "name": "SplitText"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "content",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        1984,
+        144
+      ],
+      "id": "4af9845d-d160-4154-93de-99647e9f9fc5",
+      "name": "Split Out1"
+    }
+  ],
+  "connections": {
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "SplitText",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "SetData",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SetData": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Upsert row(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SplitText": {
+      "main": [
+        [
+          {
+            "node": "Split Out1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out1": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": true
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "nodeGroups": [],
+  "pinData": {},
+  "versionId": "a0c5c3b5-9d6f-42f0-b26a-d2fb0bcc8de7",
+  "activeVersionId": "0dde7c8c-be1a-49b9-a440-14bcdb6d6c9b",
+  "versionCounter": 18,
+  "triggerCount": 1,
+  "sourceWorkflowId": null,
+  "shared": [
+    {
+      "updatedAt": "2026-04-25T21:44:33.421Z",
+      "createdAt": "2026-04-25T21:44:33.421Z",
+      "role": "workflow:owner",
+      "workflowId": "vpPp34JIYrReJxM5",
+      "projectId": "mNx2JLqnsOgn6t6X",
+      "project": {
+        "updatedAt": "2026-04-20T12:46:58.612Z",
+        "createdAt": "2026-04-20T12:15:10.767Z",
+        "id": "mNx2JLqnsOgn6t6X",
+        "name": "Felipe Viana <vianafelipe509@gmail.com>",
+        "type": "personal",
+        "icon": null,
+        "description": null,
+        "customTelemetryTags": [],
+        "creatorId": "d4f51287-a628-4839-9b45-31eec7ee072b"
+      }
+    }
+  ],
+  "tags": []
+}

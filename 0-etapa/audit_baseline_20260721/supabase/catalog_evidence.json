@@ -1,0 +1,39 @@
+{
+  "project_id": "qucikffpvnvzaxfyugwi",
+  "collected_at": "2026-07-21T20:11:09Z",
+  "collection_mode": "read_only_supabase_mcp",
+  "table": {
+    "schema": "public",
+    "name": "documents",
+    "rows": 120,
+    "rls_enabled": true,
+    "primary_key": ["id"],
+    "columns": [
+      {"name": "id", "type": "bigint", "nullable": false, "identity": "ALWAYS"},
+      {"name": "content", "type": "text", "nullable": false, "default": "''::text"},
+      {"name": "metadata", "type": "jsonb", "nullable": false, "default": "'{}'::jsonb"},
+      {"name": "fts", "type": "tsvector", "nullable": true, "generated": "to_tsvector('english'::regconfig, COALESCE(content, ''::text))"},
+      {"name": "embedding", "type": "vector(1536)", "nullable": true}
+    ],
+    "indexes": [
+      {"name": "documents_embedding_idx", "definition": "CREATE INDEX documents_embedding_idx ON public.documents USING hnsw (embedding vector_ip_ops)"},
+      {"name": "documents_fts_idx", "definition": "CREATE INDEX documents_fts_idx ON public.documents USING gin (fts)"},
+      {"name": "documents_pkey", "definition": "CREATE UNIQUE INDEX documents_pkey ON public.documents USING btree (id)"}
+    ],
+    "constraints": [
+      {"name": "documents_pkey", "type": "p", "definition": "PRIMARY KEY (id)"}
+    ],
+    "rls_policies": []
+  },
+  "functions": {
+    "hybrid_search": {
+      "identity_arguments": "query_text text, query_embedding vector, match_count integer, full_text_weight double precision, semantic_weight double precision, rrf_k integer",
+      "return_type": "SETOF documents",
+      "definition_file": "rpc_definitions.sql"
+    },
+    "match_documents": {
+      "found": false,
+      "note": "No public.match_documents function was returned by pg_proc in this project."
+    }
+  }
+}
