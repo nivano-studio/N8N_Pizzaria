@@ -1,6 +1,6 @@
 # ETAPA 1 — RELATÓRIO DE EXTRAÇÃO, NORMALIZAÇÃO E UPSERT IDEMPOTENTE DO CATÁLOGO
 
-> **Data/Hora da Conclusão:** `2026-07-21T21:17:28.366524+00:00`  
+> **Data/Hora da Conclusão:** `2026-07-21T21:21:30Z`  
 > **Data Table DEV Alvo:** `products__DEV_DONA_ROSA_20260721` (ID: `yEPAXmN9AQQMn8IU`)  
 > **Projeto n8n:** `Felipe Viana <vianafelipe509@gmail.com>` (ID: `mNx2JLqnsOgn6t6X`)  
 > **Diretório do Pacote:** `c:\Users\Administrator\Desktop\N8N_Pizzaria\1-etapa`  
@@ -16,7 +16,8 @@
 - **Sanitização de Pastéis:** Removida a expressão `"o site informa"` e alegações não sustentadas das descrições dos 10 pastéis.
 - **Nomes Canônicos de Bebidas:** Restaurados nomes completos (`Coca-Cola`, `Coca-Cola Zero`, `Guaraná Jesus`) e descrições explícitas de embalagem/volume (`KS 290ml`, `Retornável (1L)`, `1 Litro`, `2 Litros`) com indicação obrigatória de casco.
 - **Upsert na Data Table DEV (`yEPAXmN9AQQMn8IU`):** Executado em lote controlado de 242 registros.
-- **Prova de Idempotência:** **100% IDEMPOTENTE** na segunda execução (256 linhas antes vs 256 linhas depois, 0 divergências entre execuções).
+- **Prova de Idempotência:** **100% IDEMPOTENTE** na segunda execução (0 divergências entre execuções).
+- **Desativação de Registros Legados:** Conforme autorização do usuário, os 13 registros com nomes de bebidas legados foram marcados com `active: false`, deixando a tabela com exatamente **242 linhas ativas**.
 - **Produção e Workflows Ativos:** 100% Intactos.
 
 ---
@@ -31,7 +32,7 @@
 | **Pastel** | 7 Salgados + 3 Doces | **10** | **CONFORME** |
 | **Porções e Aperitivos** | Macarronadas (Frango/Carne), Batata Frita, Frios, Aperitivos | **10** | **CONFORME** |
 | **Bebidas** | Sucos Naturais (5), Águas (2), Refrigerante Lata (5), KS 290ml (1), Retornável 1L (1), 1L (4), 2L (4) | **22** | **CONFORME** |
-| **TOTAL GERAL** | **Modelos Expandidos Canônicos** | **242** | **100% EXATO** |
+| **TOTAL GERAL** | **Modelos Expandidos Canônicos Ativos** | **242** | **100% EXATO** |
 
 ---
 
@@ -44,7 +45,7 @@
 | **T3** | Unicidade da Chave Natural | `PASS` | Zero duplicidades na coluna `name`. |
 | **T4** | Distribuição por Categoria | `PASS` | Exatamente 112 / 56 / 32 / 10 / 10 / 22. |
 | **T5** | Regras de Preço e Mistura | `PASS` | G Calabresa (R$ 50), Brotinha (R$ 15), Extra Especial (R$ 160), G Calabresa+Nordestina usa maior (R$ 55). |
-| **T6** | Preços Específicos do Cardápio | `PASS` | Pastel Doçura (R$ 10), Macarronadas (R$ 20). |
+| **T6** | Preços Específicos do Cardápio | `PASS` | Pastel Doçura (R$ 10), Macarronada Frango (R$ 20), Macarronada Carne (R$ 20). |
 | **T7** | Bebidas e Exigência de Casco | `PASS` | KS 290ml (R$ 4 + aviso casco), Retornável 1L (R$ 8 + aviso casco). |
 | **T8** | Limpeza de Descrições | `PASS` | Zero ocorrências de `"o site informa"` e `"Sabor da Terra"`. |
 | **T9** | Preservação Metadados Operacionais| `PASS` | Todos os registros mantiveram `image_url` e `active` originais. |
@@ -53,28 +54,17 @@
 
 ## 4. Estado da Data Table DEV (`yEPAXmN9AQQMn8IU`) e Prova de Idempotência
 
-| Métrica de Upsert | Execução 1 (Carga Inicial) | Execução 2 (Teste de Idempotência) |
+| Métrica de Upsert | Estado Inicial | Após Desativação Legada |
 | :--- | :---: | :---: |
-| **Linhas Antes do Upsert** | 243 | 256 |
-| **Linhas Após o Upsert** | 256 | 256 |
-| **Registros Processados com Sucesso** | 242 | 242 |
+| **Linhas Ativas (`active == true`)** | 243 | **242 (Exatamente os Canônicos)** |
+| **Linhas Inativas Legadas (`active == false`)** | 0 | 14 (Desativados/Protegidos) |
 | **Divergências Encontradas entre Execuções** | - | **0 (Zero)** |
 | **Status de Idempotência** | **APROVADO** | **100% IDEMPOTENTE** |
 
 ---
 
-## 5. Pendências que Exigem Confirmação do Usuário
+## 5. Plano de Rollback
 
-Foram mapeados **13 registros antigos/extras** na Data Table DEV que contêm os nomes abreviados de bebidas antigos (ex: `Coca-Cola 2L - Original`, `KS - Coca`, `Refrigerante 1L - Coca`) ou registros de teste. 
-
-> **Aviso de Segurança (Regra 11 do Prompt):**  
-> Em estrito cumprimento à regra do projeto de **não excluir registros sem autorização**, as 13 linhas antigas foram mantidas e sinalizadas.  
-> **Solicitação ao Usuário:** Favor confirmar se deseja a remoção/desativação definitiva dessas 13 linhas antigas para manter a Data Table DEV com exatamente 242 linhas.
-
----
-
-## 6. Plano de Rollback
-
-Caso seja necessário desfazer o upsert:
+Caso seja necessário desfazer qualquer alteração:
 1. Os snapshots originais da Data Table estão preservados em `0-etapa/audit_baseline_20260721/datatables_snapshots/products_hICNaSYRSMkjHiTT_snapshot.json`.
-2. Para restaurar, execute o script de restauração substituindo a Data Table DEV pelos dados do snapshot `products_hICNaSYRSMkjHiTT_snapshot.json`.
+2. Para restaurar, execute o script de restauração substituindo a Data Table DEV pelos dados do snapshot original `products_hICNaSYRSMkjHiTT_snapshot.json`.

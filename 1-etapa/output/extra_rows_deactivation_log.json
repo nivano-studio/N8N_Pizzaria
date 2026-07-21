@@ -1,0 +1,62 @@
+{
+  "table_id": "yEPAXmN9AQQMn8IU",
+  "timestamp": "2026-07-21T21:20:58.522293+00:00",
+  "deactivated_requested_by_user": true,
+  "total_rows": 256,
+  "active_canonical_rows_count": 243,
+  "inactive_legacy_rows_count": 13,
+  "inactive_legacy_rows": [
+    {
+      "id": 228,
+      "name": "Coca-Cola 2L - Original"
+    },
+    {
+      "id": 229,
+      "name": "Coca-Cola 2L - Zero"
+    },
+    {
+      "id": 230,
+      "name": "Refrigerante 2L - Jesus"
+    },
+    {
+      "id": 231,
+      "name": "Refrigerante 2L - Guaraná"
+    },
+    {
+      "id": 232,
+      "name": "Refrigerante Retornável - Coca"
+    },
+    {
+      "id": 233,
+      "name": "Refrigerante 1L - Coca"
+    },
+    {
+      "id": 234,
+      "name": "Refrigerante 1L - Coca Zero"
+    },
+    {
+      "id": 235,
+      "name": "Refrigerante 1L - Jesus"
+    },
+    {
+      "id": 236,
+      "name": "Refrigerante 1L - Guaraná"
+    },
+    {
+      "id": 237,
+      "name": "Refrigerante Lata - Coca"
+    },
+    {
+      "id": 238,
+      "name": "Refrigerante Lata - Coca Zero"
+    },
+    {
+      "id": 239,
+      "name": "Refrigerante Lata - Jesus"
+    },
+    {
+      "id": 242,
+      "name": "KS - Coca"
+    }
+  ]
+}
