@@ -1,73 +1,61 @@
-import os
-import re
+"""Redact accidental secrets from the portable Etapa 0 package."""
+
+from pathlib import Path
 import json
+import re
 
-base_dir = r"c:\Users\Administrator\Desktop\N8N_Pizzaria\0-etapa"
 
-secret_patterns = [
-    (re.compile(r'sb_[A-Za-z0-9_-]{15,}'), '[REDACTED_SECRET]'),
-    (re.compile(r'sb_publishable_[A-Za-z0-9_-]{15,}'), '[REDACTED_SECRET]'),
-    (re.compile(r'Bearer\s+[A-Za-z0-9._-]{15,}'), 'Bearer [REDACTED_SECRET]'),
-    (re.compile(r'sk-[A-Za-z0-9_-]{15,}'), '[REDACTED_SECRET]'),
-    (re.compile(r'sk_live_[A-Za-z0-9_-]{15,}'), '[REDACTED_SECRET]'),
-    (re.compile(r'eyJ[A-Za-z0-9_-]{15,}\.[A-Za-z0-9_-]{15,}\.[A-Za-z0-9_-]{15,}'), '[REDACTED_SECRET]'),
-]
+ROOT = Path(__file__).resolve().parents[1]
+EXCLUDED = {"checksums.sha256"}
+TEXT_EXTENSIONS = {".json", ".md", ".py", ".ts", ".txt", ".sql"}
+PATTERNS = (
+    (re.compile(r"sb_[A-Za-z0-9_-]{15,}"), "[REDACTED_SECRET]"),
+    (re.compile(r"Bearer\s+[A-Za-z0-9._-]{15,}"), "Bearer [REDACTED_SECRET]"),
+    (re.compile(r"sk-[A-Za-z0-9_-]{15,}"), "[REDACTED_SECRET]"),
+    (re.compile(r"sk_live_[A-Za-z0-9_-]{15,}"), "[REDACTED_SECRET]"),
+    (re.compile(r"eyJ[A-Za-z0-9_-]{15,}\.[A-Za-z0-9_-]{15,}\.[A-Za-z0-9_-]{15,}"), "[REDACTED_SECRET]"),
+)
 
-affected_files = []
 
-def sanitize_str(s):
-    val = s
-    for pat, repl in secret_patterns:
-        val = pat.sub(repl, val)
-    return val
+def redact_text(value: str) -> str:
+    for pattern, replacement in PATTERNS:
+        value = pattern.sub(replacement, value)
+    return value
 
-def sanitize_json_obj(obj):
-    if isinstance(obj, dict):
-        new_dict = {}
-        for k, v in obj.items():
-            if k in ["ElevenLabsAPI-KEY", "openia_api_key", "vector_store_id"] and isinstance(v, str) and not v.startswith("[REDACTED"):
-                new_dict[k] = "[REDACTED_SECRET]"
-            else:
-                new_dict[k] = sanitize_json_obj(v)
-        return new_dict
-    elif isinstance(obj, list):
-        return [sanitize_json_obj(item) for item in obj]
-    elif isinstance(obj, str):
-        return sanitize_str(obj)
-    else:
-        return obj
 
-print("=== STEP 1: SANITIZING SECRETS COMPREHENSIVELY IN 0-ETAPA ===")
+def redact_json(value):
+    if isinstance(value, dict):
+        return {
+            key: "[REDACTED_SECRET]"
+            if key.lower() in {"elevenlabsapi-key", "openia_api_key", "openai_api_key", "vector_store_id"}
+            and isinstance(item, str)
+            and not item.startswith("[REDACTED")
+            else redact_json(item)
+            for key, item in value.items()
+        }
+    if isinstance(value, list):
+        return [redact_json(item) for item in value]
+    return redact_text(value) if isinstance(value, str) else value
 
-for root, dirs, files in os.walk(base_dir):
-    for f in files:
-        if f == "checksums.sha256":
+
+def main() -> None:
+    changed: list[str] = []
+    for path in ROOT.rglob("*"):
+        if not path.is_file() or path.name in EXCLUDED or path.suffix.lower() not in TEXT_EXTENSIONS:
             continue
-        ext = os.path.splitext(f)[1].lower()
-        if ext in [".json", ".md", ".py", ".ts", ".txt", ".sql"]:
-            f_path = os.path.join(root, f)
+        original = path.read_text(encoding="utf-8", errors="ignore")
+        if path.suffix.lower() == ".json":
             try:
-                with open(f_path, "r", encoding="utf-8") as file:
-                    content = file.read()
-                
-                if ext == ".json":
-                    try:
-                        data = json.loads(content)
-                        sanitized_data = sanitize_json_obj(data)
-                        new_content = json.dumps(sanitized_data, indent=2, ensure_ascii=False)
-                    except Exception:
-                        new_content, _ = sanitize_str(content)
-                else:
-                    new_content = sanitize_str(content)
-                    
-                if new_content != content:
-                    with open(f_path, "w", encoding="utf-8") as out:
-                        out.write(new_content)
-                    rel_p = os.path.relpath(f_path, base_dir).replace("\\", "/")
-                    affected_files.append(rel_p)
-            except Exception as e:
-                print(f"Error processing {f_path}: {e}")
+                replacement = json.dumps(redact_json(json.loads(original)), indent=2, ensure_ascii=False)
+            except json.JSONDecodeError:
+                replacement = redact_text(original)
+        else:
+            replacement = redact_text(original)
+        if replacement != original:
+            path.write_text(replacement, encoding="utf-8")
+            changed.append(path.relative_to(ROOT).as_posix())
+    print(f"Secret sanitization complete. Files changed: {len(changed)}")
 
-print(f"Sanitization complete. Total affected files: {len(affected_files)}")
-for f in sorted(set(affected_files)):
-    print(f" - {f}")
+
+if __name__ == "__main__":
+    main()

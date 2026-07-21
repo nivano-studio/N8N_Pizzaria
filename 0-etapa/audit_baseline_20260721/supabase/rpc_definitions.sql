@@ -1,47 +1,77 @@
+-- Live function definitions, verified after controlled migration.
 -- Supabase project: qucikffpvnvzaxfyugwi
--- Source: pg_get_functiondef(...) queried read-only via Supabase MCP
--- Collected: 2026-07-21T20:11:09Z
+-- Verification time: 2026-07-21T20:11:09Z
 
-CREATE OR REPLACE FUNCTION public.hybrid_search(query_text text, query_embedding vector, match_count integer, full_text_weight double precision DEFAULT 1, semantic_weight double precision DEFAULT 1, rrf_k integer DEFAULT 50)
- RETURNS SETOF documents
- LANGUAGE sql
-AS $function$
-with full_text as (
- select
- id,
- -- Note: ts_rank_cd is not indexable but will only rank matches of the where clause
- -- which shouldn't be too big
- row_number() over(order by ts_rank_cd(fts, websearch_to_tsquery(query_text)) desc) as rank_ix
- from
- documents
- where
- fts @@ websearch_to_tsquery(query_text)
- order by rank_ix
- limit least(match_count, 30) * 2
-),
-semantic as (
- select
- id,
- row_number() over (order by embedding <#> query_embedding) as rank_ix
- from
- documents
- order by rank_ix
- limit least(match_count, 30) * 2
+CREATE OR REPLACE FUNCTION public.hybrid_search(
+  query_text text,
+  query_embedding extensions.vector,
+  match_count integer,
+  full_text_weight double precision DEFAULT 1,
+  semantic_weight double precision DEFAULT 1,
+  rrf_k integer DEFAULT 50
 )
-select
- documents.*
-from
- full_text
- full outer join semantic
- on full_text.id = semantic.id
- join documents
- on coalesce(full_text.id, semantic.id) = documents.id
-order by
- coalesce(1.0 / (rrf_k + full_text.rank_ix), 0.0) * full_text_weight +
- coalesce(1.0 / (rrf_k + semantic.rank_ix), 0.0) * semantic_weight
- desc
-limit
- least(match_count, 30)
+RETURNS SETOF public.documents
+LANGUAGE sql
+SECURITY INVOKER
+SET search_path = public, extensions
+AS $function$
+WITH full_text AS (
+  SELECT
+    d.id,
+    row_number() OVER (
+      ORDER BY ts_rank_cd(d.fts, websearch_to_tsquery(query_text)) DESC
+    ) AS rank_ix
+  FROM public.documents AS d
+  WHERE d.fts @@ websearch_to_tsquery(query_text)
+  ORDER BY rank_ix
+  LIMIT LEAST(match_count, 30) * 2
+),
+semantic AS (
+  SELECT
+    d.id,
+    row_number() OVER (ORDER BY d.embedding <#> query_embedding) AS rank_ix
+  FROM public.documents AS d
+  ORDER BY rank_ix
+  LIMIT LEAST(match_count, 30) * 2
+)
+SELECT d.*
+FROM full_text
+FULL OUTER JOIN semantic ON full_text.id = semantic.id
+JOIN public.documents AS d
+  ON COALESCE(full_text.id, semantic.id) = d.id
+ORDER BY
+  COALESCE(1.0 / (rrf_k + full_text.rank_ix), 0.0) * full_text_weight +
+  COALESCE(1.0 / (rrf_k + semantic.rank_ix), 0.0) * semantic_weight DESC
+LIMIT LEAST(match_count, 30)
 $function$;
 
--- Live catalog result: public.match_documents was not found in the queried project.
+CREATE OR REPLACE FUNCTION public.match_documents(
+  query_embedding extensions.vector(1536),
+  match_threshold double precision DEFAULT 0,
+  match_count integer DEFAULT 10
+)
+RETURNS TABLE (
+  id bigint,
+  content text,
+  metadata jsonb,
+  similarity double precision
+)
+LANGUAGE sql
+SECURITY INVOKER
+SET search_path = public, extensions
+AS $function$
+  SELECT
+    d.id,
+    d.content,
+    d.metadata,
+    (1 - (d.embedding <=> query_embedding))::double precision AS similarity
+  FROM public.documents AS d
+  WHERE d.embedding IS NOT NULL
+    AND (1 - (d.embedding <=> query_embedding)) > match_threshold
+  ORDER BY d.embedding <=> query_embedding
+  LIMIT LEAST(match_count, 30)
+$function$;
+
+REVOKE ALL ON FUNCTION public.match_documents(extensions.vector, double precision, integer) FROM PUBLIC;
+REVOKE ALL ON FUNCTION public.match_documents(extensions.vector, double precision, integer) FROM anon, authenticated;
+GRANT EXECUTE ON FUNCTION public.match_documents(extensions.vector, double precision, integer) TO service_role;

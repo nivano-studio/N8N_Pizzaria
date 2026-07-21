@@ -1,17 +1,20 @@
-# Supabase/RAG evidence
+# Evidência Supabase/RAG — Etapa 0
 
-- Project ID: `qucikffpvnvzaxfyugwi`
-- Collection mode: read-only Supabase MCP
-- Collection date: `2026-07-21T20:11:09Z`
-- Table: `public.documents`
-- Rows observed: `120`
-- Embedding type: `vector(1536)`
-- Embedding index: HNSW using `vector_ip_ops`
-- Full-text index: GIN on `fts`
-- RPC definition: `rpc_definitions.sql`
-- Reconstructed catalog schema: `documents_schema.sql`
-- Raw catalog evidence: `catalog_evidence.json`
+- Projeto: `qucikffpvnvzaxfyugwi`
+- Tabela RAG: `public.documents` (120 linhas)
+- Embedding: `extensions.vector(1536)`
+- Índice vetorial: HNSW com `extensions.vector_ip_ops`
+- RLS: habilitado; nenhuma policy existe atualmente. O acesso do n8n é restrito ao `service_role`.
 
-Important: `hybrid_search` exists with six arguments (three required and three defaults). `match_documents` was not found in the live `public` schema and must not be claimed as present without separate evidence.
+## Arquivos
 
-No DDL, RPC, policy, or data changes were executed during collection.
+- `documents_schema.sql`: DDL reconstruído do catálogo PostgreSQL ao vivo.
+- `rpc_definitions.sql`: definições completas e atuais de `hybrid_search` e `match_documents`.
+- `migration_20260721_rag_compatibility.sql`: migração aplicada sob autorização para criar `match_documents` e fixar o `search_path` de `hybrid_search`.
+- `documents_metadata.json` e `catalog_evidence.json`: metadados e resultados de verificação.
+
+## Resultado
+
+O n8n referencia `match_documents` no nó `Supabase Vector Store/Hybrid`. Essa RPC foi criada, testada com uma consulta vetorial controlada e restringida ao papel `service_role`. As funções usam `SECURITY INVOKER` e `search_path` fixo (`public, extensions`).
+
+Nenhum workflow n8n de produção, Data Table de produção ou linha da tabela `documents` foi alterado.

@@ -1,89 +1,78 @@
 {
+  "validation_timestamp": "2026-07-21T20:57:45Z",
   "validator_1_json_validity": {
     "status": "PASS",
-    "details": "Checked 14 JSON files successfully."
+    "details": "15 JSON evidence files parsed successfully."
   },
-  "validator_2_3_dev_workflow_live_status": {
+  "validator_2_dev_workflow_live_status": {
     "status": "PASS",
     "details": [
       {
         "id": "fq4UCwZ6KOOXm0NY",
         "name": "ImportPdfToTable__DEV_DONA_ROSA_20260721",
         "active": false,
-        "availableInMCP": true
+        "availableInMCP": true,
+        "trigger_count": 0
       },
       {
         "id": "NdproODtUwjO9ZZ5",
         "name": "ToolsProductsDataTableToRag__DEV_DONA_ROSA_20260721",
         "active": false,
-        "availableInMCP": true
+        "availableInMCP": true,
+        "trigger_count": 0
       },
       {
         "id": "x7L6Z0klfhvqWx1R",
         "name": "EvolutionDeliveyRagHibridoDataTables-export__DEV_DONA_ROSA_20260721",
         "active": false,
-        "availableInMCP": true
+        "availableInMCP": true,
+        "trigger_count": 0
       }
     ]
   },
-  "validator_4_zero_prod_ids_in_dev": {
+  "validator_3_dev_datatables_live_status": {
     "status": "PASS",
-    "found_prod_references": []
+    "details": "Three DEV tables were found in project mNx2JLqnsOgn6t6X with the archived schemas. Row counts are evidenced in dev_datatables_meta.json: products=242, customers=1, invoices=2."
   },
-  "validator_5_zero_enabled_external_nodes": {
+  "validator_4_dev_isolation": {
     "status": "PASS",
-    "enabled_external_nodes": []
+    "details": "No legacy production/Data Table IDs were found in the three exported DEV workflow JSON files."
   },
-  "validator_6_zero_plain_text_secrets": {
+  "validator_5_external_nodes_and_secrets_live": {
     "status": "PASS",
-    "files_with_secrets": []
+    "details": "All classified external nodes in all DEV workflows are disabled. The residual Supabase key found in disabled DEV node search_restaurante_data was redacted live and a second scan found zero raw key/JWT patterns."
   },
-  "validator_7_dev_datatables_status": {
+  "validator_6_package_secret_scan": {
     "status": "PASS",
-    "datatables": [
-      {
-        "id": "yEPAXmN9AQQMn8IU",
-        "name": "products__DEV_DONA_ROSA_20260721",
-        "projectId": "mNx2JLqnsOgn6t6X",
-        "columns_count": 6
-      },
-      {
-        "id": "DacGOSDHaMAFF3Zq",
-        "name": "customers__DEV_DONA_ROSA_20260721",
-        "projectId": "mNx2JLqnsOgn6t6X",
-        "columns_count": 9
-      },
-      {
-        "id": "0iESK6xkLcCfCNUu",
-        "name": "invoices__DEV_DONA_ROSA_20260721",
-        "projectId": "mNx2JLqnsOgn6t6X",
-        "columns_count": 7
-      }
-    ]
+    "details": "No raw sb_, sk-, or JWT patterns were found in the portable 0-etapa evidence package."
   },
-  "validator_8_rollback_evidence": {
+  "validator_7_rollback_evidence": {
     "status": "PASS",
-    "evidence_file": "audit_baseline_20260721\\rollback_test_evidence.json"
+    "details": "rollback_test_evidence.json records an 85-node / 69-connection disposable rollback test and confirmed cleanup."
   },
-  "validator_9_supabase_ddl_and_rpc_archived": {
+  "validator_8_supabase_rag_compatibility": {
     "status": "PASS",
-    "files": [
-      {
-        "file": "documents_metadata.json",
-        "status": "VALIDATED"
-      },
-      {
-        "file": "rpc_definitions.sql",
-        "status": "VALIDATED"
-      },
-      {
-        "file": "supabase_schema_full.sql",
-        "status": "VALIDATED"
-      },
-      {
-        "file": "README.md",
-        "status": "VALIDATED"
-      }
-    ]
-  }
+    "details": "public.match_documents exists and returned one result in a controlled probe. hybrid_search also returned one result. Both functions are SECURITY INVOKER with fixed search_path; match_documents execution is service_role-only."
+  },
+  "validator_9_checksum_manifest": {
+    "status": "PASS",
+    "details": "43 package files were indexed and verified with SHA-256 after all final evidence was written."
+  },
+  "residual_advisories": [
+    {
+      "status": "RECORDED_NOT_MODIFIED",
+      "object": "public.documents",
+      "detail": "RLS is enabled and has no policies. Current design restricts the RAG access path to service_role; this pre-existing design needs an explicit application-level decision before changing RLS."
+    },
+    {
+      "status": "RECORDED_NOT_MODIFIED",
+      "object": "public.rls_auto_enable()",
+      "detail": "Supabase advisor still reports the pre-existing SECURITY DEFINER function executable by anon/authenticated. It is outside the RAG functions corrected in this stage and was not changed without a defined owner/use-case."
+    },
+    {
+      "status": "RECORDED_NOT_BLOCKING",
+      "object": "DEV workflow x7L6Z0klfhvqWx1R / node OpenAI1",
+      "detail": "The n8n connector reports an old audio-resource schema compatibility warning. The node is disabled, the workflow is inactive with zero triggers, and it was preserved to keep the backup topology intact."
+    }
+  ]
 }
