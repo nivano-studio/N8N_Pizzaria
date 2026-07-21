@@ -1,8 +1,10 @@
 {
-  "file_name": "product_restaurant_list",
-  "source_version": "v_20260721_221448",
   "catalog_hash": "13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8",
-  "run_id": "run_20260721_221448_13981aaf",
-  "total_products": 242,
-  "timestamp": "2026-07-21T22:14:48.396101+00:00"
+  "source_version": "v_13981aaf",
+  "run_id": "run_13981aaf",
+  "file_name": "product_restaurant_list",
+  "total_active_products": 242,
+  "embedding_model": "text-embedding-3-large",
+  "dimensions": 1536,
+  "updated_at": "2026-07-21T22:57:57.174403+00:00"
 }

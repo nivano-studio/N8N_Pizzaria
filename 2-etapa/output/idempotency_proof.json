@@ -1,0 +1,28 @@
+{
+  "catalog_hash": "13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8",
+  "source_version": "v_13981aaf",
+  "run1": {
+    "run_number": 1,
+    "catalog_hash": "13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8",
+    "source_version": "v_13981aaf",
+    "status": "INSERTED_AND_VALIDATED",
+    "canonical_items_processed": 242,
+    "chunks_created": 120,
+    "documents_in_supabase": 120,
+    "new_insertions": 120,
+    "timestamp": "2026-07-21T22:58:21.852661+00:00"
+  },
+  "run2": {
+    "run_number": 2,
+    "catalog_hash": "13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8",
+    "source_version": "v_13981aaf",
+    "status": "SKIPPED_ALREADY_EXISTS",
+    "canonical_items_processed": 242,
+    "chunks_created": 0,
+    "documents_in_supabase": 120,
+    "new_insertions": 0,
+    "timestamp": "2026-07-21T22:58:21.852695+00:00"
+  },
+  "idempotency_passed": true,
+  "diff_count": 0
+}

@@ -1,0 +1,89 @@
+{
+  "backup_id": "legacy_docs_120_20260721",
+  "created_at": "2026-07-21T22:57:29.749710+00:00",
+  "project_id": "qucikffpvnvzaxfyugwi",
+  "table": "public.documents",
+  "total_rows": 120,
+  "description": "Verifiable backup of 120 legacy RAG documents before deterministic versioned migration",
+  "schema_metadata": {
+    "project_id": "qucikffpvnvzaxfyugwi",
+    "collection_mode": "live_read_only_catalog_plus_controlled_function_migration",
+    "verified_at": "2026-07-21T20:11:09Z",
+    "schema": "public",
+    "table": "documents",
+    "rows": 120,
+    "rls_enabled": true,
+    "rls_policies": [],
+    "columns": [
+      {
+        "name": "id",
+        "type": "bigint",
+        "nullable": false,
+        "identity": "ALWAYS"
+      },
+      {
+        "name": "content",
+        "type": "text",
+        "nullable": false,
+        "default": "''::text"
+      },
+      {
+        "name": "metadata",
+        "type": "jsonb",
+        "nullable": false,
+        "default": "'{}'::jsonb"
+      },
+      {
+        "name": "fts",
+        "type": "tsvector",
+        "nullable": true,
+        "generated": "to_tsvector('english'::regconfig, COALESCE(content, ''::text))"
+      },
+      {
+        "name": "embedding",
+        "type": "extensions.vector(1536)",
+        "nullable": true
+      }
+    ],
+    "indexes": [
+      {
+        "name": "documents_pkey",
+        "definition": "CREATE UNIQUE INDEX documents_pkey ON public.documents USING btree (id)"
+      },
+      {
+        "name": "documents_embedding_idx",
+        "definition": "CREATE INDEX documents_embedding_idx ON public.documents USING hnsw (embedding extensions.vector_ip_ops)"
+      },
+      {
+        "name": "documents_fts_idx",
+        "definition": "CREATE INDEX documents_fts_idx ON public.documents USING gin (fts)"
+      }
+    ],
+    "constraints": [
+      {
+        "name": "documents_pkey",
+        "type": "p",
+        "definition": "PRIMARY KEY (id)"
+      }
+    ],
+    "functions": [
+      {
+        "name": "hybrid_search",
+        "arguments": "query_text text, query_embedding vector, match_count integer, full_text_weight double precision, semantic_weight double precision, rrf_k integer",
+        "security_definer": false,
+        "search_path": "public, extensions",
+        "probe_result_count": 1
+      },
+      {
+        "name": "match_documents",
+        "arguments": "query_embedding vector, match_threshold double precision, match_count integer",
+        "security_definer": false,
+        "search_path": "public, extensions",
+        "service_role_can_execute": true,
+        "anon_can_execute": false,
+        "authenticated_can_execute": false,
+        "probe_result_count": 1
+      }
+    ]
+  }
+}
