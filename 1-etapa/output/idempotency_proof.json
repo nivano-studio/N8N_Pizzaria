@@ -1,0 +1,87 @@
+{
+  "table_id": "yEPAXmN9AQQMn8IU",
+  "table_name": "products__DEV_DONA_ROSA_20260721",
+  "timestamp": "2026-07-21T21:17:11.524269+00:00",
+  "idempotent": true,
+  "run1_summary": {
+    "count_before": 243,
+    "count_after": 256,
+    "successes": 242
+  },
+  "run2_summary": {
+    "start_time": "2026-07-21T21:15:01.153378+00:00",
+    "end_time": "2026-07-21T21:17:09.365329+00:00",
+    "count_before": 256,
+    "count_after": 256,
+    "successes": 242,
+    "failures": 0
+  },
+  "diff_count_between_runs": 0,
+  "extra_records_flagged_for_user_confirmation": [
+    {
+      "id": 228,
+      "name": "Coca-Cola 2L - Original",
+      "category": "Bebidas"
+    },
+    {
+      "id": 229,
+      "name": "Coca-Cola 2L - Zero",
+      "category": "Bebidas"
+    },
+    {
+      "id": 230,
+      "name": "Refrigerante 2L - Jesus",
+      "category": "Bebidas"
+    },
+    {
+      "id": 231,
+      "name": "Refrigerante 2L - Guaraná",
+      "category": "Bebidas"
+    },
+    {
+      "id": 232,
+      "name": "Refrigerante Retornável - Coca",
+      "category": "Bebidas"
+    },
+    {
+      "id": 233,
+      "name": "Refrigerante 1L - Coca",
+      "category": "Bebidas"
+    },
+    {
+      "id": 234,
+      "name": "Refrigerante 1L - Coca Zero",
+      "category": "Bebidas"
+    },
+    {
+      "id": 235,
+      "name": "Refrigerante 1L - Jesus",
+      "category": "Bebidas"
+    },
+    {
+      "id": 236,
+      "name": "Refrigerante 1L - Guaraná",
+      "category": "Bebidas"
+    },
+    {
+      "id": 237,
+      "name": "Refrigerante Lata - Coca",
+      "category": "Bebidas"
+    },
+    {
+      "id": 238,
+      "name": "Refrigerante Lata - Coca Zero",
+      "category": "Bebidas"
+    },
+    {
+      "id": 239,
+      "name": "Refrigerante Lata - Jesus",
+      "category": "Bebidas"
+    },
+    {
+      "id": 242,
+      "name": "KS - Coca",
+      "category": "Bebidas"
+    }
+  ]
+}

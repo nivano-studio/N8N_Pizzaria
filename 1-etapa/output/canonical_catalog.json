@@ -1,0 +1,1938 @@
+[
+  {
+    "name": "CALABRESA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "CALABRESA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "CALABRESA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "CALABRESA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "CALABRESA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "CALABRESA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "CALABRESA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "CALABRESA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Calabresa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "A MODA DA CASA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/A Moda da Casa.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO COM CATUPIRY - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "BACON COM MILHO - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Bacon com Milho.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MISTA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mista.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "MEXICANA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mexicana.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "PORTUGUESA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Portuguesa.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "FRANGO - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "SEIS COBERTAS - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Seis Cobertas.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "PEPPERONI - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Pepperoni.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "MUSSARELA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Mussarela.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "VEGETARIANA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Vegetariana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BALACUBANA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Balacubana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "BAIANA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Tradicional",
+    "image_url": "/images/pizzas_cardapio/Baiana.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+    "price": "20",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+    "price": "35",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "45",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "55",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "70",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "80",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "100",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "NORDESTINA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "160",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nordestina.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+    "price": "20",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+    "price": "35",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "45",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "55",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "70",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "80",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "100",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "160",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+    "price": "20",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+    "price": "35",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "45",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "55",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "70",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "80",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "100",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "4 QUEIJOS - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "160",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/4 Queijos - segunda imagem.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+    "price": "20",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+    "price": "35",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "45",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "55",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "70",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "80",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "100",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "CARNE DE SOL COM BANANA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "160",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Carne de Sol com Banana.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - Brotinha",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+    "price": "20",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - P (4 Fatias)",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+    "price": "35",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - M (6 Fatias)",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "45",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - G (8 Fatias)",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "55",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - F (10 Fatias)",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "70",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - XF (12 Fatias)",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "80",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - GG (14 Fatias)",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "100",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "NUTELLA PREMIUM - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "160",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Nutella Premium.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+    "price": "20",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+    "price": "35",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "45",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "55",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "70",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "80",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "100",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "LOMBO CANADENSE - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "160",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Lombo Canadense.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - Brotinha",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+    "price": "20",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - P (4 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+    "price": "35",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - M (6 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "45",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - G (8 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+    "price": "55",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - F (10 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "70",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - XF (12 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "80",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - GG (14 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "100",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ESCONDIDINHO - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+    "price": "160",
+    "category": "Pizza Especial",
+    "image_url": "/images/pizzas_cardapio/Escondidinho.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - Brotinha",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - P (4 Fatias)",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - M (6 Fatias)",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - G (8 Fatias)",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - F (10 Fatias)",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - XF (12 Fatias)",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - GG (14 Fatias)",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "ABACAXI - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Abacaxi.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - Brotinha",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - P (4 Fatias)",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - M (6 Fatias)",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - G (8 Fatias)",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - F (10 Fatias)",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - XF (12 Fatias)",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - GG (14 Fatias)",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "BANANA - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Banana com Canela.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - Brotinha",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - P (4 Fatias)",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - M (6 Fatias)",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - G (8 Fatias)",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - F (10 Fatias)",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - XF (12 Fatias)",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - GG (14 Fatias)",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "CHOCOLATE - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Chocolate Granulado.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - Brotinha",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Tradicionais/Doces",
+    "price": "15",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - P (4 Fatias)",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "30",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - M (6 Fatias)",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "40",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - G (8 Fatias)",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "50",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - F (10 Fatias)",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "60",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - XF (12 Fatias)",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "70",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - GG (14 Fatias)",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "90",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "PIZZA DE COCO - Extra 70x70cm (16 Fatias)",
+    "description": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: Extra | Fatias: 16 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+    "price": "150",
+    "category": "Pizza Doce",
+    "image_url": "/images/pizzas_cardapio/Pizza de Coco.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - FRANGO COM CATUPIRY",
+    "description": "Tipo: Pastel Salgado | Sabor: FRANGO COM CATUPIRY",
+    "price": "8",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Frango com Catupiry.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - FRANGO",
+    "description": "Tipo: Pastel Salgado | Sabor: FRANGO",
+    "price": "8",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Frango.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - QUEIJO",
+    "description": "Tipo: Pastel Salgado | Sabor: QUEIJO",
+    "price": "8",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Queijo.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - QUEIJO E PRESUNTO",
+    "description": "Tipo: Pastel Salgado | Sabor: QUEIJO E PRESUNTO",
+    "price": "10",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Queijo e Presunto.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - PIZZA",
+    "description": "Tipo: Pastel Salgado | Sabor: PIZZA",
+    "price": "10",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Pizza.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - CARNE",
+    "description": "Tipo: Pastel Salgado | Sabor: CARNE",
+    "price": "10",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Carne.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - CARNE E QUEIJO",
+    "description": "Tipo: Pastel Salgado | Sabor: CARNE E QUEIJO",
+    "price": "10",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Carne e Queijo.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - ROMEU E JULIETA",
+    "description": "Tipo: Pastel Doce | Sabor: ROMEU E JULIETA",
+    "price": "10",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Romeu e Julieta.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - DOÇURA",
+    "description": "Tipo: Pastel Doce | Sabor: DOÇURA",
+    "price": "10",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Doçura.webp",
+    "active": "true"
+  },
+  {
+    "name": "Pastel - CHOCOLATE COM QUEIJO",
+    "description": "Tipo: Pastel Doce | Sabor: CHOCOLATE COM QUEIJO",
+    "price": "10",
+    "category": "Pastel",
+    "image_url": "/images/pasteis/Chocolate com Queijo.webp",
+    "active": "true"
+  },
+  {
+    "name": "Macarronada - Frango",
+    "description": "Deliciosa macarronada caseira preparada na hora. Opção: Frango.",
+    "price": "20",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/macarronada.webp",
+    "active": "true"
+  },
+  {
+    "name": "Macarronada - Carne",
+    "description": "Deliciosa macarronada caseira preparada na hora. Opção: Carne.",
+    "price": "20",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/macarronada.webp",
+    "active": "true"
+  },
+  {
+    "name": "Batata Frita",
+    "description": "Batata frita crocante acompanhada de molho.",
+    "price": "16",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/batata-frita.webp",
+    "active": "true"
+  },
+  {
+    "name": "Tábua de Frios",
+    "description": "Salame com limão, cubos de queijo e azeitona.",
+    "price": "30",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/tabua-de-frios.webp",
+    "active": "true"
+  },
+  {
+    "name": "Calabresa Acebolada",
+    "description": "Calabresa fatiada com cebola frita e farofa.",
+    "price": "15",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/calabresa-acebolada.webp",
+    "active": "true"
+  },
+  {
+    "name": "Ovo de Codorna",
+    "description": "Ovos de codorna temperados com orégano.",
+    "price": "10",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/ovo-de-codorna.webp",
+    "active": "true"
+  },
+  {
+    "name": "Mix de Boteco",
+    "description": "Porção de queijo temperado com orégano.",
+    "price": "15",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/mix-de-boteco.webp",
+    "active": "true"
+  },
+  {
+    "name": "Aperitivo de Queijo Temperado",
+    "description": "Cubos de queijo temperados com orégano e azeitona.",
+    "price": "20",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/aperitivo-queijo-temperado.webp",
+    "active": "true"
+  },
+  {
+    "name": "Clássico com Fritas",
+    "description": "Filé com batata frita, farofa, vinagrete e molho.",
+    "price": "45",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/classico-com-fritas.webp",
+    "active": "true"
+  },
+  {
+    "name": "Aperitivo Nordestino",
+    "description": "Carne de sol com vinagrete e farofa.",
+    "price": "45",
+    "category": "Porções e Aperitivos",
+    "image_url": "/images/porcos/aperitivo-nordestino.webp",
+    "active": "true"
+  },
+  {
+    "name": "Suco Natural - Laranja",
+    "description": "Suco natural. Opção: Laranja. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+    "price": "8",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/suco_natural.webp",
+    "active": "true"
+  },
+  {
+    "name": "Suco Natural - Maracujá",
+    "description": "Suco natural. Opção: Maracujá. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+    "price": "8",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/suco_natural.webp",
+    "active": "true"
+  },
+  {
+    "name": "Suco Natural - Cajá",
+    "description": "Suco natural. Opção: Cajá. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+    "price": "8",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/suco_natural.webp",
+    "active": "true"
+  },
+  {
+    "name": "Suco Natural - Acerola",
+    "description": "Suco natural. Opção: Acerola. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+    "price": "8",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/suco_natural.webp",
+    "active": "true"
+  },
+  {
+    "name": "Suco Natural - Bacuri",
+    "description": "Suco natural. Opção: Bacuri. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+    "price": "8",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/suco_natural.webp",
+    "active": "true"
+  },
+  {
+    "name": "Água - Sem Gás",
+    "description": "Água mineral sem gás.",
+    "price": "4",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/agua_v3.webp",
+    "active": "true"
+  },
+  {
+    "name": "Água - Com Gás",
+    "description": "Água mineral com gás.",
+    "price": "5",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/agua_v3.webp",
+    "active": "true"
+  },
+  {
+    "name": "Coca-Cola 2 Litros - Original",
+    "description": "Refrigerante Coca-Cola 2 litros. Opção: Original.",
+    "price": "15",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/coca_cola_2l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Coca-Cola 2 Litros - Zero",
+    "description": "Refrigerante Coca-Cola 2 litros. Opção: Zero.",
+    "price": "15",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/coca_cola_2l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante 2 Litros - Guaraná Jesus",
+    "description": "Refrigerante 2 litros. Opção: Guaraná Jesus.",
+    "price": "15",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_2l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante 2 Litros - Guaraná",
+    "description": "Refrigerante 2 litros. Opção: Guaraná.",
+    "price": "15",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_2l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante Retornável (1L) - Coca-Cola",
+    "description": "Refrigerante retornável 1 litro Coca-Cola. (Obrigatório possuir o casco para troca)",
+    "price": "8",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_retornavel.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante 1 Litro - Coca-Cola",
+    "description": "Refrigerante 1 litro. Opção: Coca-Cola.",
+    "price": "9",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_1l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante 1 Litro - Coca-Cola Zero",
+    "description": "Refrigerante 1 litro. Opção: Coca-Cola Zero.",
+    "price": "9",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_1l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante 1 Litro - Guaraná Jesus",
+    "description": "Refrigerante 1 litro. Opção: Guaraná Jesus.",
+    "price": "9",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_1l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante 1 Litro - Guaraná",
+    "description": "Refrigerante 1 litro. Opção: Guaraná.",
+    "price": "9",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_1l.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante Lata - Coca-Cola",
+    "description": "Refrigerante em lata. Opção: Coca-Cola.",
+    "price": "5",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_lata.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante Lata - Coca-Cola Zero",
+    "description": "Refrigerante em lata. Opção: Coca-Cola Zero.",
+    "price": "5",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_lata.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante Lata - Guaraná Jesus",
+    "description": "Refrigerante em lata. Opção: Guaraná Jesus.",
+    "price": "5",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_lata.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante Lata - Guaraná",
+    "description": "Refrigerante em lata. Opção: Guaraná.",
+    "price": "5",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_lata.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante Lata - Laranja",
+    "description": "Refrigerante em lata. Opção: Laranja.",
+    "price": "5",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/refrigerante_lata.webp",
+    "active": "true"
+  },
+  {
+    "name": "Refrigerante KS (290ml) - Coca-Cola",
+    "description": "Refrigerante KS 290ml Coca-Cola. (Obrigatório possuir o casco para troca)",
+    "price": "4",
+    "category": "Bebidas",
+    "image_url": "/images/bebidas/ks.webp",
+    "active": "true"
+  }
+]

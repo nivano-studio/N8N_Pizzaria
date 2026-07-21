@@ -1,0 +1,56 @@
+[
+  {
+    "test_id": "T1_CSV_FORMAT",
+    "description": "CSV parseable, correct headers, exactly 242 rows",
+    "status": "PASS",
+    "details": "Headers: ['name', 'description', 'price', 'category', 'image_url', 'active'], Row count: 242"
+  },
+  {
+    "test_id": "T2_PRICE_ACTIVE_VALIDITY",
+    "description": "Prices are parseable numeric values and active is boolean string",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "test_id": "T3_NATURAL_KEY_UNIQUENESS",
+    "description": "Zero duplicate natural keys (name)",
+    "status": "PASS",
+    "details": "Duplicates: set()"
+  },
+  {
+    "test_id": "T4_CATEGORY_COUNTS",
+    "description": "Exact breakdown: 112/56/32/10/10/22 across categories",
+    "status": "PASS",
+    "details": "Obtained: {'Pizza Tradicional': 112, 'Pizza Especial': 56, 'Pizza Doce': 32, 'Pastel': 10, 'Porções e Aperitivos': 10, 'Bebidas': 22}"
+  },
+  {
+    "test_id": "T5_PRICE_BUSINESS_RULES",
+    "description": "Price verification for G Calabresa (50), Brotinha (15), Extra Especial (160), and Mixed Rule (55)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "test_id": "T6_SPECIFIC_ITEM_PRICES",
+    "description": "Pastel Doçura (10), Macarronada Frango (20), Macarronada Carne (20)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "test_id": "T7_BEVERAGE_CASCO_RULES",
+    "description": "KS 290ml (R$ 4 + casco), Retornável 1L (R$ 8 + casco)",
+    "status": "PASS",
+    "details": ""
+  },
+  {
+    "test_id": "T8_CLEAN_DESCRIPTIONS",
+    "description": "Zero occurrences of 'o site informa' or 'Sabor da Terra'",
+    "status": "PASS",
+    "details": "Unwanted in: []"
+  },
+  {
+    "test_id": "T9_OPERATIONAL_METADATA",
+    "description": "All records have valid image_url and active status preserved",
+    "status": "PASS",
+    "details": ""
+  }
+]

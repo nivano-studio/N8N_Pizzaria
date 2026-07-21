@@ -1,0 +1,2757 @@
+[
+  {
+    "name_corrected": "CALABRESA - P (4 Fatias)",
+    "name_reference": "CALABRESA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CALABRESA - M (6 Fatias)",
+    "name_reference": "CALABRESA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CALABRESA - G (8 Fatias)",
+    "name_reference": "CALABRESA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CALABRESA - F (10 Fatias)",
+    "name_reference": "CALABRESA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CALABRESA - XF (12 Fatias)",
+    "name_reference": "CALABRESA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CALABRESA - GG (14 Fatias)",
+    "name_reference": "CALABRESA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, tomate, cebola e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "CALABRESA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "CALABRESA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "A MODA DA CASA - P (4 Fatias)",
+    "name_reference": "A MODA DA CASA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "A MODA DA CASA - M (6 Fatias)",
+    "name_reference": "A MODA DA CASA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "A MODA DA CASA - G (8 Fatias)",
+    "name_reference": "A MODA DA CASA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "A MODA DA CASA - F (10 Fatias)",
+    "name_reference": "A MODA DA CASA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "A MODA DA CASA - XF (12 Fatias)",
+    "name_reference": "A MODA DA CASA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "A MODA DA CASA - GG (14 Fatias)",
+    "name_reference": "A MODA DA CASA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, ovo, azeitona e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "A MODA DA CASA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "A MODA DA CASA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO COM CATUPIRY - P (4 Fatias)",
+    "name_reference": "FRANGO COM CATUPIRY - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO COM CATUPIRY - M (6 Fatias)",
+    "name_reference": "FRANGO COM CATUPIRY - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO COM CATUPIRY - G (8 Fatias)",
+    "name_reference": "FRANGO COM CATUPIRY - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO COM CATUPIRY - F (10 Fatias)",
+    "name_reference": "FRANGO COM CATUPIRY - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO COM CATUPIRY - XF (12 Fatias)",
+    "name_reference": "FRANGO COM CATUPIRY - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO COM CATUPIRY - GG (14 Fatias)",
+    "name_reference": "FRANGO COM CATUPIRY - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, catupiry e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "FRANGO COM CATUPIRY - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "FRANGO COM CATUPIRY - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BACON COM MILHO - P (4 Fatias)",
+    "name_reference": "BACON COM MILHO - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BACON COM MILHO - M (6 Fatias)",
+    "name_reference": "BACON COM MILHO - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BACON COM MILHO - G (8 Fatias)",
+    "name_reference": "BACON COM MILHO - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BACON COM MILHO - F (10 Fatias)",
+    "name_reference": "BACON COM MILHO - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BACON COM MILHO - XF (12 Fatias)",
+    "name_reference": "BACON COM MILHO - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BACON COM MILHO - GG (14 Fatias)",
+    "name_reference": "BACON COM MILHO - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, bacon, milho, tomate, cebola e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "BACON COM MILHO - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "BACON COM MILHO - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MISTA - P (4 Fatias)",
+    "name_reference": "MISTA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MISTA - M (6 Fatias)",
+    "name_reference": "MISTA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MISTA - G (8 Fatias)",
+    "name_reference": "MISTA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MISTA - F (10 Fatias)",
+    "name_reference": "MISTA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MISTA - XF (12 Fatias)",
+    "name_reference": "MISTA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MISTA - GG (14 Fatias)",
+    "name_reference": "MISTA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, calabresa, milho, azeitona e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "MISTA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "MISTA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MEXICANA - P (4 Fatias)",
+    "name_reference": "MEXICANA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MEXICANA - M (6 Fatias)",
+    "name_reference": "MEXICANA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MEXICANA - G (8 Fatias)",
+    "name_reference": "MEXICANA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MEXICANA - F (10 Fatias)",
+    "name_reference": "MEXICANA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MEXICANA - XF (12 Fatias)",
+    "name_reference": "MEXICANA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MEXICANA - GG (14 Fatias)",
+    "name_reference": "MEXICANA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, pimentão, pimenta calabresa, tomate, cebola e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "MEXICANA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "MEXICANA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PORTUGUESA - P (4 Fatias)",
+    "name_reference": "PORTUGUESA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PORTUGUESA - M (6 Fatias)",
+    "name_reference": "PORTUGUESA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PORTUGUESA - G (8 Fatias)",
+    "name_reference": "PORTUGUESA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PORTUGUESA - F (10 Fatias)",
+    "name_reference": "PORTUGUESA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PORTUGUESA - XF (12 Fatias)",
+    "name_reference": "PORTUGUESA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PORTUGUESA - GG (14 Fatias)",
+    "name_reference": "PORTUGUESA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, tomate, cebola, milho, ovo, catupiry, azeitona e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "PORTUGUESA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "PORTUGUESA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO - P (4 Fatias)",
+    "name_reference": "FRANGO - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO - M (6 Fatias)",
+    "name_reference": "FRANGO - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO - G (8 Fatias)",
+    "name_reference": "FRANGO - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO - F (10 Fatias)",
+    "name_reference": "FRANGO - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO - XF (12 Fatias)",
+    "name_reference": "FRANGO - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "FRANGO - GG (14 Fatias)",
+    "name_reference": "FRANGO - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, frango, tomate, cebola e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "FRANGO - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "FRANGO - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "SEIS COBERTAS - P (4 Fatias)",
+    "name_reference": "SEIS COBERTAS - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "SEIS COBERTAS - M (6 Fatias)",
+    "name_reference": "SEIS COBERTAS - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "SEIS COBERTAS - G (8 Fatias)",
+    "name_reference": "SEIS COBERTAS - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "SEIS COBERTAS - F (10 Fatias)",
+    "name_reference": "SEIS COBERTAS - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "SEIS COBERTAS - XF (12 Fatias)",
+    "name_reference": "SEIS COBERTAS - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "SEIS COBERTAS - GG (14 Fatias)",
+    "name_reference": "SEIS COBERTAS - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, milho, tomate e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "SEIS COBERTAS - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "SEIS COBERTAS - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PEPPERONI - P (4 Fatias)",
+    "name_reference": "PEPPERONI - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PEPPERONI - M (6 Fatias)",
+    "name_reference": "PEPPERONI - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PEPPERONI - G (8 Fatias)",
+    "name_reference": "PEPPERONI - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PEPPERONI - F (10 Fatias)",
+    "name_reference": "PEPPERONI - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PEPPERONI - XF (12 Fatias)",
+    "name_reference": "PEPPERONI - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PEPPERONI - GG (14 Fatias)",
+    "name_reference": "PEPPERONI - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, calabresa, bacon, milho, pimentão, tomate, cebola e azeitona. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "PEPPERONI - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "PEPPERONI - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MUSSARELA - P (4 Fatias)",
+    "name_reference": "MUSSARELA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MUSSARELA - M (6 Fatias)",
+    "name_reference": "MUSSARELA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MUSSARELA - G (8 Fatias)",
+    "name_reference": "MUSSARELA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MUSSARELA - F (10 Fatias)",
+    "name_reference": "MUSSARELA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MUSSARELA - XF (12 Fatias)",
+    "name_reference": "MUSSARELA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "MUSSARELA - GG (14 Fatias)",
+    "name_reference": "MUSSARELA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, azeitona e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "MUSSARELA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "MUSSARELA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "VEGETARIANA - P (4 Fatias)",
+    "name_reference": "VEGETARIANA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "VEGETARIANA - M (6 Fatias)",
+    "name_reference": "VEGETARIANA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "VEGETARIANA - G (8 Fatias)",
+    "name_reference": "VEGETARIANA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "VEGETARIANA - F (10 Fatias)",
+    "name_reference": "VEGETARIANA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "VEGETARIANA - XF (12 Fatias)",
+    "name_reference": "VEGETARIANA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "VEGETARIANA - GG (14 Fatias)",
+    "name_reference": "VEGETARIANA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, tomate, cebola, pimentão, milho, batata palha, azeitona e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "VEGETARIANA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "VEGETARIANA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BALACUBANA - P (4 Fatias)",
+    "name_reference": "BALACUBANA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BALACUBANA - M (6 Fatias)",
+    "name_reference": "BALACUBANA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BALACUBANA - G (8 Fatias)",
+    "name_reference": "BALACUBANA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BALACUBANA - F (10 Fatias)",
+    "name_reference": "BALACUBANA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BALACUBANA - XF (12 Fatias)",
+    "name_reference": "BALACUBANA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BALACUBANA - GG (14 Fatias)",
+    "name_reference": "BALACUBANA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, frango, bacon, cebola e azeitona. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "BALACUBANA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "BALACUBANA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BAIANA - P (4 Fatias)",
+    "name_reference": "BAIANA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BAIANA - M (6 Fatias)",
+    "name_reference": "BAIANA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BAIANA - G (8 Fatias)",
+    "name_reference": "BAIANA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BAIANA - F (10 Fatias)",
+    "name_reference": "BAIANA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BAIANA - XF (12 Fatias)",
+    "name_reference": "BAIANA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BAIANA - GG (14 Fatias)",
+    "name_reference": "BAIANA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Molho, mussarela, presunto, cebola, ovo, pimenta calabresa, azeitona e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "BAIANA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "BAIANA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NORDESTINA - Brotinha",
+    "name_reference": "NORDESTINA - Brotinha",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NORDESTINA - P (4 Fatias)",
+    "name_reference": "NORDESTINA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NORDESTINA - M (6 Fatias)",
+    "name_reference": "NORDESTINA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NORDESTINA - G (8 Fatias)",
+    "name_reference": "NORDESTINA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NORDESTINA - F (10 Fatias)",
+    "name_reference": "NORDESTINA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NORDESTINA - XF (12 Fatias)",
+    "name_reference": "NORDESTINA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NORDESTINA - GG (14 Fatias)",
+    "name_reference": "NORDESTINA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola roxa, cheiro verde, pimenta calabresa e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "NORDESTINA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "NORDESTINA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL - Brotinha",
+    "name_reference": "CARNE DE SOL - Brotinha",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL - P (4 Fatias)",
+    "name_reference": "CARNE DE SOL - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL - M (6 Fatias)",
+    "name_reference": "CARNE DE SOL - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL - G (8 Fatias)",
+    "name_reference": "CARNE DE SOL - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL - F (10 Fatias)",
+    "name_reference": "CARNE DE SOL - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL - XF (12 Fatias)",
+    "name_reference": "CARNE DE SOL - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL - GG (14 Fatias)",
+    "name_reference": "CARNE DE SOL - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, cebola, tomate e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "CARNE DE SOL - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "CARNE DE SOL - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "4 QUEIJOS - Brotinha",
+    "name_reference": "4 QUEIJOS - Brotinha",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "4 QUEIJOS - P (4 Fatias)",
+    "name_reference": "4 QUEIJOS - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "4 QUEIJOS - M (6 Fatias)",
+    "name_reference": "4 QUEIJOS - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "4 QUEIJOS - G (8 Fatias)",
+    "name_reference": "4 QUEIJOS - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "4 QUEIJOS - F (10 Fatias)",
+    "name_reference": "4 QUEIJOS - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "4 QUEIJOS - XF (12 Fatias)",
+    "name_reference": "4 QUEIJOS - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "4 QUEIJOS - GG (14 Fatias)",
+    "name_reference": "4 QUEIJOS - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, catupiry, requeijão, parmesão, cebola, tomate e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "4 QUEIJOS - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "4 QUEIJOS - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL COM BANANA - Brotinha",
+    "name_reference": "CARNE DE SOL COM BANANA - Brotinha",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL COM BANANA - P (4 Fatias)",
+    "name_reference": "CARNE DE SOL COM BANANA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL COM BANANA - M (6 Fatias)",
+    "name_reference": "CARNE DE SOL COM BANANA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL COM BANANA - G (8 Fatias)",
+    "name_reference": "CARNE DE SOL COM BANANA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL COM BANANA - F (10 Fatias)",
+    "name_reference": "CARNE DE SOL COM BANANA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL COM BANANA - XF (12 Fatias)",
+    "name_reference": "CARNE DE SOL COM BANANA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CARNE DE SOL COM BANANA - GG (14 Fatias)",
+    "name_reference": "CARNE DE SOL COM BANANA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, banana frita, requeijão, cebola, tomate e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "CARNE DE SOL COM BANANA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "CARNE DE SOL COM BANANA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NUTELLA PREMIUM - Brotinha",
+    "name_reference": "NUTELLA PREMIUM - Brotinha",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, creme de avelã, leite ninho, morangos. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NUTELLA PREMIUM - P (4 Fatias)",
+    "name_reference": "NUTELLA PREMIUM - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, creme de avelã, leite ninho, morangos. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NUTELLA PREMIUM - M (6 Fatias)",
+    "name_reference": "NUTELLA PREMIUM - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, creme de avelã, leite ninho, morangos. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NUTELLA PREMIUM - G (8 Fatias)",
+    "name_reference": "NUTELLA PREMIUM - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, creme de avelã, leite ninho, morangos. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NUTELLA PREMIUM - F (10 Fatias)",
+    "name_reference": "NUTELLA PREMIUM - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, creme de avelã, leite ninho, morangos. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NUTELLA PREMIUM - XF (12 Fatias)",
+    "name_reference": "NUTELLA PREMIUM - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, creme de avelã, leite ninho, morangos. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "NUTELLA PREMIUM - GG (14 Fatias)",
+    "name_reference": "NUTELLA PREMIUM - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, creme de avelã, leite ninho, morangos. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Mussarela, creme de avelã, leite ninho e morangos. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "NUTELLA PREMIUM - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "NUTELLA PREMIUM - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "LOMBO CANADENSE - Brotinha",
+    "name_reference": "LOMBO CANADENSE - Brotinha",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "LOMBO CANADENSE - P (4 Fatias)",
+    "name_reference": "LOMBO CANADENSE - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "LOMBO CANADENSE - M (6 Fatias)",
+    "name_reference": "LOMBO CANADENSE - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "LOMBO CANADENSE - G (8 Fatias)",
+    "name_reference": "LOMBO CANADENSE - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "LOMBO CANADENSE - F (10 Fatias)",
+    "name_reference": "LOMBO CANADENSE - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "LOMBO CANADENSE - XF (12 Fatias)",
+    "name_reference": "LOMBO CANADENSE - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "LOMBO CANADENSE - GG (14 Fatias)",
+    "name_reference": "LOMBO CANADENSE - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, lombo canadense, requeijão, bacon, abacaxi, cebola, tomate e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "LOMBO CANADENSE - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "LOMBO CANADENSE - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ESCONDIDINHO - Brotinha",
+    "name_reference": "ESCONDIDINHO - Brotinha",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: Brotinha | Fatias: - | Limite de sabores: 1 sabor | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ESCONDIDINHO - P (4 Fatias)",
+    "name_reference": "ESCONDIDINHO - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ESCONDIDINHO - M (6 Fatias)",
+    "name_reference": "ESCONDIDINHO - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ESCONDIDINHO - G (8 Fatias)",
+    "name_reference": "ESCONDIDINHO - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ESCONDIDINHO - F (10 Fatias)",
+    "name_reference": "ESCONDIDINHO - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ESCONDIDINHO - XF (12 Fatias)",
+    "name_reference": "ESCONDIDINHO - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ESCONDIDINHO - GG (14 Fatias)",
+    "name_reference": "ESCONDIDINHO - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais | Observação: qualquer pizza montada com sabor especial utiliza a tabela de preço das pizzas especiais.",
+        "new": "Ingredientes: Molho, mussarela, carne de sol, catupiry, batata palha, azeitona, cebola, tomate e orégano. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Especiais",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "ESCONDIDINHO - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "ESCONDIDINHO - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ABACAXI - P (4 Fatias)",
+    "name_reference": "ABACAXI - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ABACAXI - M (6 Fatias)",
+    "name_reference": "ABACAXI - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ABACAXI - G (8 Fatias)",
+    "name_reference": "ABACAXI - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ABACAXI - F (10 Fatias)",
+    "name_reference": "ABACAXI - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ABACAXI - XF (12 Fatias)",
+    "name_reference": "ABACAXI - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "ABACAXI - GG (14 Fatias)",
+    "name_reference": "ABACAXI - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, abacaxi e leite condensado. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "ABACAXI - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "ABACAXI - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BANANA - P (4 Fatias)",
+    "name_reference": "BANANA - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BANANA - M (6 Fatias)",
+    "name_reference": "BANANA - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BANANA - G (8 Fatias)",
+    "name_reference": "BANANA - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BANANA - F (10 Fatias)",
+    "name_reference": "BANANA - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BANANA - XF (12 Fatias)",
+    "name_reference": "BANANA - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "BANANA - GG (14 Fatias)",
+    "name_reference": "BANANA - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, banana, canela e leite condensado. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "BANANA - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "BANANA - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CHOCOLATE - P (4 Fatias)",
+    "name_reference": "CHOCOLATE - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CHOCOLATE - M (6 Fatias)",
+    "name_reference": "CHOCOLATE - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CHOCOLATE - G (8 Fatias)",
+    "name_reference": "CHOCOLATE - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CHOCOLATE - F (10 Fatias)",
+    "name_reference": "CHOCOLATE - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CHOCOLATE - XF (12 Fatias)",
+    "name_reference": "CHOCOLATE - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "CHOCOLATE - GG (14 Fatias)",
+    "name_reference": "CHOCOLATE - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, chocolate e leite condensado. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "CHOCOLATE - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "CHOCOLATE - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PIZZA DE COCO - P (4 Fatias)",
+    "name_reference": "PIZZA DE COCO - P (4 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: P | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: P (4 Fatias) | Fatias: 4 Fatias | Limite de sabores: até 2 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PIZZA DE COCO - M (6 Fatias)",
+    "name_reference": "PIZZA DE COCO - M (6 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: M | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: M (6 Fatias) | Fatias: 6 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PIZZA DE COCO - G (8 Fatias)",
+    "name_reference": "PIZZA DE COCO - G (8 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: G | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: G (8 Fatias) | Fatias: 8 Fatias | Limite de sabores: até 3 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PIZZA DE COCO - F (10 Fatias)",
+    "name_reference": "PIZZA DE COCO - F (10 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: F | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: F (10 Fatias) | Fatias: 10 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PIZZA DE COCO - XF (12 Fatias)",
+    "name_reference": "PIZZA DE COCO - XF (12 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: XF | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: XF (12 Fatias) | Fatias: 12 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "PIZZA DE COCO - GG (14 Fatias)",
+    "name_reference": "PIZZA DE COCO - GG (14 Fatias)",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: GG | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "new": "Ingredientes: Mussarela, coco ralado e chocolate. | Tamanho: GG (14 Fatias) | Fatias: 14 Fatias | Limite de sabores: até 4 sabores | Tabela de preço: Tradicionais/Doces",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "type": "NEW_UNMATCHED",
+    "name_corrected": "PIZZA DE COCO - Extra (70x70cm)",
+    "name_reference": "N/A",
+    "changes": [
+      {
+        "field": "all",
+        "old": "N/A",
+        "new": "PIZZA DE COCO - Extra (70x70cm)",
+        "reason": "No match found in reference"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - FRANGO COM CATUPIRY",
+    "name_reference": "Pastel - FRANGO COM CATUPIRY",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Salgado | Sabor: FRANGO COM CATUPIRY | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Salgado | Sabor: FRANGO COM CATUPIRY",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - FRANGO",
+    "name_reference": "Pastel - FRANGO",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Salgado | Sabor: FRANGO | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Salgado | Sabor: FRANGO",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - QUEIJO",
+    "name_reference": "Pastel - QUEIJO",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Salgado | Sabor: QUEIJO | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Salgado | Sabor: QUEIJO",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - QUEIJO E PRESUNTO",
+    "name_reference": "Pastel - QUEIJO E PRESUNTO",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Salgado | Sabor: QUEIJO E PRESUNTO | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Salgado | Sabor: QUEIJO E PRESUNTO",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - PIZZA",
+    "name_reference": "Pastel - PIZZA",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Salgado | Sabor: PIZZA | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Salgado | Sabor: PIZZA",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - CARNE",
+    "name_reference": "Pastel - CARNE",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Salgado | Sabor: CARNE | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Salgado | Sabor: CARNE",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - CARNE E QUEIJO",
+    "name_reference": "Pastel - CARNE E QUEIJO",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Salgado | Sabor: CARNE E QUEIJO | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Salgado | Sabor: CARNE E QUEIJO",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - ROMEU E JULIETA",
+    "name_reference": "Pastel - ROMEU E JULIETA",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Doce | Sabor: ROMEU E JULIETA | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Doce | Sabor: ROMEU E JULIETA",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - DOÇURA",
+    "name_reference": "Pastel - DOÇURA",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Doce | Sabor: DOÇURA | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Doce | Sabor: DOÇURA",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Pastel - CHOCOLATE COM QUEIJO",
+    "name_reference": "Pastel - CHOCOLATE COM QUEIJO",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Tipo: Pastel Doce | Sabor: CHOCOLATE COM QUEIJO | Observação: o site informa o tipo do pastel, mas não detalha ingredientes além do nome/sabor.",
+        "new": "Tipo: Pastel Doce | Sabor: CHOCOLATE COM QUEIJO",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Macarronada - Frango",
+    "name_reference": "Macarronada - Frango",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Deliciosa macarronada caseira preparada na hora. Opção: Frango.",
+        "new": "Deliciosa macarronada caseira preparada na hora. Opção: Frango.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Macarronada - Carne",
+    "name_reference": "Macarronada - Carne",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Deliciosa macarronada caseira preparada na hora. Opção: Carne.",
+        "new": "Deliciosa macarronada caseira preparada na hora. Opção: Carne.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Batata Frita",
+    "name_reference": "Batata Frita",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Batata frita crocante acompanhada de molho.",
+        "new": "Batata frita crocante acompanhada de molho.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Tábua de Frios",
+    "name_reference": "Tábua de Frios",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Salame com limão, cubos de queijo e azeitona.",
+        "new": "Salame com limão, cubos de queijo e azeitona.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Calabresa Acebolada",
+    "name_reference": "Calabresa Acebolada",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Calabresa fatiada com cebola frita e farofa.",
+        "new": "Calabresa fatiada com cebola frita e farofa.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Ovo de Codorna",
+    "name_reference": "Ovo de Codorna",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Ovos de codorna temperados com orégano.",
+        "new": "Ovos de codorna temperados com orégano.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Mix de Boteco",
+    "name_reference": "Mix de Boteco",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Porção de queijo temperado com orégano.",
+        "new": "Porção de queijo temperado com orégano.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Aperitivo de Queijo Temperado",
+    "name_reference": "Aperitivo de Queijo Temperado",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Cubos de queijo temperados com orégano e azeitona.",
+        "new": "Cubos de queijo temperados com orégano e azeitona.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Clássico com Fritas",
+    "name_reference": "Clássico com Fritas",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Filé com batata frita, farofa, vinagrete e molho.",
+        "new": "Filé com batata frita, farofa, vinagrete e molho.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Aperitivo Nordestino",
+    "name_reference": "Aperitivo Nordestino",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Descrição/ingredientes: Carne de sol com vinagrete e farofa.",
+        "new": "Carne de sol com vinagrete e farofa.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Suco Natural - Laranja",
+    "name_reference": "Suco Natural - Laranja",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Suco natural. Opção: Laranja. Sabores disponíveis no grupo: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "new": "Suco natural. Opção: Laranja. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Suco Natural - Maracujá",
+    "name_reference": "Suco Natural - Maracujá",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Suco natural. Opção: Maracujá. Sabores disponíveis no grupo: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "new": "Suco natural. Opção: Maracujá. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Suco Natural - Cajá",
+    "name_reference": "Suco Natural - Cajá",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Suco natural. Opção: Cajá. Sabores disponíveis no grupo: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "new": "Suco natural. Opção: Cajá. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Suco Natural - Acerola",
+    "name_reference": "Suco Natural - Acerola",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Suco natural. Opção: Acerola. Sabores disponíveis no grupo: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "new": "Suco natural. Opção: Acerola. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Suco Natural - Bacuri",
+    "name_reference": "Suco Natural - Bacuri",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Suco natural. Opção: Bacuri. Sabores disponíveis no grupo: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "new": "Suco natural. Opção: Bacuri. Sabores disponíveis: Laranja, Maracujá, Cajá, Acerola e Bacuri.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Água - Sem Gás",
+    "name_reference": "Água - Sem Gás",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Água mineral sem gás. Grupo original: Água. Opção: Sem Gás.",
+        "new": "Água mineral sem gás.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Água - Com Gás",
+    "name_reference": "Água - Com Gás",
+    "changes": [
+      {
+        "field": "description",
+        "old": "Água mineral com gás. Grupo original: Água. Opção: Com Gás.",
+        "new": "Água mineral com gás.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Coca-Cola 2 Litros - Original",
+    "name_reference": "Coca-Cola 2L - Original",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Coca-Cola 2L - Original",
+        "new": "Coca-Cola 2 Litros - Original",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Coca-Cola 2 litros. Opção: Original.",
+        "new": "Refrigerante Coca-Cola 2 litros. Opção: Original.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Coca-Cola 2 Litros - Zero",
+    "name_reference": "Coca-Cola 2L - Zero",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Coca-Cola 2L - Zero",
+        "new": "Coca-Cola 2 Litros - Zero",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Coca-Cola 2 litros. Opção: Zero.",
+        "new": "Refrigerante Coca-Cola 2 litros. Opção: Zero.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante 2 Litros - Guaraná Jesus",
+    "name_reference": "Refrigerante 2L - Jesus",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante 2L - Jesus",
+        "new": "Refrigerante 2 Litros - Guaraná Jesus",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante 2 litros. Opção: Jesus.",
+        "new": "Refrigerante 2 litros. Opção: Guaraná Jesus.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante 2 Litros - Guaraná",
+    "name_reference": "Refrigerante 2L - Guaraná",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante 2L - Guaraná",
+        "new": "Refrigerante 2 Litros - Guaraná",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante Retornável (1L) - Coca-Cola",
+    "name_reference": "Refrigerante Retornável - Coca",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante Retornável - Coca",
+        "new": "Refrigerante Retornável (1L) - Coca-Cola",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante retornável Coca. Necessário possuir o casco para troca.",
+        "new": "Refrigerante retornável 1 litro Coca-Cola. (Obrigatório possuir o casco para troca)",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante 1 Litro - Coca-Cola",
+    "name_reference": "Refrigerante 1L - Coca",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante 1L - Coca",
+        "new": "Refrigerante 1 Litro - Coca-Cola",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante 1 litro. Opção: Coca.",
+        "new": "Refrigerante 1 litro. Opção: Coca-Cola.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante 1 Litro - Coca-Cola Zero",
+    "name_reference": "Refrigerante 1L - Coca Zero",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante 1L - Coca Zero",
+        "new": "Refrigerante 1 Litro - Coca-Cola Zero",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante 1 litro. Opção: Coca Zero.",
+        "new": "Refrigerante 1 litro. Opção: Coca-Cola Zero.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante 1 Litro - Guaraná Jesus",
+    "name_reference": "Refrigerante 1L - Jesus",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante 1L - Jesus",
+        "new": "Refrigerante 1 Litro - Guaraná Jesus",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante 1 litro. Opção: Jesus.",
+        "new": "Refrigerante 1 litro. Opção: Guaraná Jesus.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante 1 Litro - Guaraná",
+    "name_reference": "Refrigerante 1L - Guaraná",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante 1L - Guaraná",
+        "new": "Refrigerante 1 Litro - Guaraná",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante Lata - Coca-Cola",
+    "name_reference": "Refrigerante Lata - Coca",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante Lata - Coca",
+        "new": "Refrigerante Lata - Coca-Cola",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante em lata. Opção: Coca.",
+        "new": "Refrigerante em lata. Opção: Coca-Cola.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante Lata - Coca-Cola Zero",
+    "name_reference": "Refrigerante Lata - Coca Zero",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante Lata - Coca Zero",
+        "new": "Refrigerante Lata - Coca-Cola Zero",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante em lata. Opção: Coca Zero.",
+        "new": "Refrigerante em lata. Opção: Coca-Cola Zero.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante Lata - Guaraná Jesus",
+    "name_reference": "Refrigerante Lata - Jesus",
+    "changes": [
+      {
+        "field": "name",
+        "old": "Refrigerante Lata - Jesus",
+        "new": "Refrigerante Lata - Guaraná Jesus",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "Refrigerante em lata. Opção: Jesus.",
+        "new": "Refrigerante em lata. Opção: Guaraná Jesus.",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  },
+  {
+    "name_corrected": "Refrigerante KS (290ml) - Coca-Cola",
+    "name_reference": "KS - Coca",
+    "changes": [
+      {
+        "field": "name",
+        "old": "KS - Coca",
+        "new": "Refrigerante KS (290ml) - Coca-Cola",
+        "reason": "Restored full canonical name (brand, volume, packaging)"
+      },
+      {
+        "field": "description",
+        "old": "KS Coca. Necessário possuir o casco para troca.",
+        "new": "Refrigerante KS 290ml Coca-Cola. (Obrigatório possuir o casco para troca)",
+        "reason": "Removed 'o site informa' / sanitized unverified claims"
+      }
+    ]
+  }
+]
