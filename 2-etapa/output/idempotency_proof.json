@@ -1,28 +1,30 @@
 {
+  "simulated": false,
   "catalog_hash": "13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8",
   "source_version": "v_13981aaf",
+  "workflow_id": "NdproODtUwjO9ZZ5",
   "run1": {
-    "run_number": 1,
-    "catalog_hash": "13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8",
-    "source_version": "v_13981aaf",
-    "status": "INSERTED_AND_VALIDATED",
-    "canonical_items_processed": 242,
-    "chunks_created": 120,
-    "documents_in_supabase": 120,
-    "new_insertions": 120,
-    "timestamp": "2026-07-21T22:58:21.852661+00:00"
+    "execution_id": "1135",
+    "status": "success",
+    "gate": {"already_exists": false, "existing_count": 0},
+    "active_products_read": 110,
+    "target_rows_after_ingest": 110,
+    "total_rows_before_cleanup": 230,
+    "legacy_rows_before_cleanup": 120
+  },
+  "cleanup": {
+    "authorization": "explicit_user_authorization",
+    "deleted_rows": 120,
+    "condition": "metadata->>file_name = product_restaurant_list AND metadata->>source_version IS NULL",
+    "backup_sha256": "f3478a0d968371c3388682d703b2fecb4dd12ed7f2e4bd166aeca76bcfd76103"
   },
   "run2": {
-    "run_number": 2,
-    "catalog_hash": "13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8",
-    "source_version": "v_13981aaf",
-    "status": "SKIPPED_ALREADY_EXISTS",
-    "canonical_items_processed": 242,
-    "chunks_created": 0,
-    "documents_in_supabase": 120,
-    "new_insertions": 0,
-    "timestamp": "2026-07-21T22:58:21.852695+00:00"
+    "execution_id": "1136",
+    "status": "success",
+    "gate": {"already_exists": true, "existing_count": 110},
+    "skip_status": "SKIPPED_ALREADY_EXISTS",
+    "ingestion_branch_executed": false,
+    "target_rows_after_replay": 110
   },
-  "idempotency_passed": true,
-  "diff_count": 0
+  "idempotency_passed": true
 }

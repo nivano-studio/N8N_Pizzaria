@@ -1,144 +1,16 @@
-[
-  {
-    "class_id": 1,
-    "class_name": "Nome Exato",
-    "query": "CALABRESA - G (8 Fatias)",
-    "status": "PASS",
-    "top_1_match": "CALABRESA - G (8 Fatias)",
-    "matched_count": 1,
-    "expected_facts": [
-      "Preço R$ 50",
-      "Molho, mussarela, calabresa",
-      "8 Fatias"
-    ],
-    "divergences": 0,
-    "details": "Query 'CALABRESA - G (8 Fatias)' returned 1 matching items from canonical catalog."
-  },
-  {
-    "class_id": 2,
-    "class_name": "Abreviação Comum",
-    "query": "coca 2l original",
-    "status": "PASS",
-    "top_1_match": "Coca-Cola 2 Litros - Original",
-    "matched_count": 1,
-    "expected_facts": [
-      "Refrigerante Coca-Cola 2 litros",
-      "Preço R$ 15"
-    ],
-    "divergences": 0,
-    "details": "Query 'coca 2l original' returned 1 matching items from canonical catalog."
-  },
-  {
-    "class_id": 3,
-    "class_name": "Ingrediente",
-    "query": "carne de sol banana frita requeijao",
-    "status": "PASS",
-    "top_1_match": "CARNE DE SOL COM BANANA - Brotinha",
-    "matched_count": 1,
-    "expected_facts": [
-      "Carne de Sol com Banana",
-      "Mussarela, carne de sol, banana frita, requeijão"
-    ],
-    "divergences": 0,
-    "details": "Query 'carne de sol banana frita requeijao' returned 1 matching items from canonical catalog."
-  },
-  {
-    "class_id": 4,
-    "class_name": "Categoria",
-    "query": "Pasteis doces cardapio",
-    "status": "PASS",
-    "top_1_match": "Pastel - FRANGO COM CATUPIRY",
-    "matched_count": 10,
-    "expected_facts": [
-      "Pastel Doce",
-      "Romeu e Julieta",
-      "Doçura",
-      "Chocolate com Queijo"
-    ],
-    "divergences": 0,
-    "details": "Query 'Pasteis doces cardapio' returned 10 matching items from canonical catalog."
-  },
-  {
-    "class_id": 5,
-    "class_name": "Tamanho + Preço",
-    "query": "Pizza Extra 70x70cm 16 Fatias preco especial",
-    "status": "PASS",
-    "top_1_match": "NORDESTINA - Extra 70x70cm (16 Fatias)",
-    "matched_count": 1,
-    "expected_facts": [
-      "Preço (Especiais) R$ 160",
-      "16 Fatias",
-      "70x70cm"
-    ],
-    "divergences": 0,
-    "details": "Query 'Pizza Extra 70x70cm 16 Fatias preco especial' returned 1 matching items from canonical catalog."
-  },
-  {
-    "class_id": 6,
-    "class_name": "Limite de Sabores",
-    "query": "qual o limite de sabores da pizza Brotinha",
-    "status": "PASS",
-    "top_1_match": "CALABRESA - Brotinha",
-    "matched_count": 25,
-    "expected_facts": [
-      "Limite de sabores: 1 sabor"
-    ],
-    "divergences": 0,
-    "details": "Query 'qual o limite de sabores da pizza Brotinha' returned 25 matching items from canonical catalog."
-  },
-  {
-    "class_id": 7,
-    "class_name": "Bebida + Volume",
-    "query": "refrigerante lata guarana jesus",
-    "status": "PASS",
-    "top_1_match": "Refrigerante Lata - Guaraná Jesus",
-    "matched_count": 1,
-    "expected_facts": [
-      "Refrigerante em lata",
-      "Guaraná Jesus",
-      "Preço R$ 5"
-    ],
-    "divergences": 0,
-    "details": "Query 'refrigerante lata guarana jesus' returned 1 matching items from canonical catalog."
-  },
-  {
-    "class_id": 8,
-    "class_name": "Exigência de Casco",
-    "query": "refrigerante retornavel 1 litro casco",
-    "status": "PASS",
-    "top_1_match": "Refrigerante Retornável (1L) - Coca-Cola",
-    "matched_count": 1,
-    "expected_facts": [
-      "Obrigatório possuir o casco para troca",
-      "Preço R$ 8"
-    ],
-    "divergences": 0,
-    "details": "Query 'refrigerante retornavel 1 litro casco' returned 1 matching items from canonical catalog."
-  },
-  {
-    "class_id": 9,
-    "class_name": "Item Inexistente",
-    "query": "Sushi de Salmão Temaki",
-    "status": "PASS",
-    "top_1_match": "NENHUM_RESULTADO",
-    "matched_count": 0,
-    "expected_facts": [
-      "Não disponível no cardápio Dona Rosa"
-    ],
-    "divergences": 0,
-    "details": "Query 'Sushi de Salmão Temaki' returned 0 matching items from canonical catalog."
-  },
-  {
-    "class_id": 10,
-    "class_name": "Consulta de Conteúdo Antigo (Sanitização)",
-    "query": "o site informa Sabor da Terra",
-    "status": "PASS",
-    "top_1_match": "NENHUM_RESULTADO",
-    "matched_count": 0,
-    "expected_facts": [
-      "Zero ocorrências de 'o site informa' ou 'Sabor da Terra'"
-    ],
-    "divergences": 0,
-    "details": "Query 'o site informa Sabor da Terra' returned 0 matching items from canonical catalog."
+{
+  "simulated": false,
+  "status": "STRUCTURAL_VALIDATION_ONLY",
+  "note": "No endpoint semantic matrix was fabricated. The live RPCs were probed with a valid 1536-dimensional zero vector; product-level relevance must be exercised by the application/Edge Function in the next stage.",
+  "checks": [
+    {"name":"embedding_column","result":"vector(1536)","status":"PASS"},
+    {"name":"hybrid_search_function","rows_returned":5,"status":"PASS"},
+    {"name":"match_documents_function","rows_returned":5,"status":"PASS"},
+    {"name":"live_documents","rows":110,"source_version":"v_13981aaf","catalog_hash":"13981aaf83a38c7f1a810e4242b216bccd426bd003da75dd2e89c4e3b581bac8","status":"PASS"},
+    {"name":"legacy_content","rows":0,"status":"PASS"}
+  ],
+  "semantic_query_classes": {
+    "executed": 0,
+    "pending_next_stage": 10
   }
-]
+}

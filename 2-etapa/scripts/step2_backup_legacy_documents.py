@@ -1,37 +1,33 @@
-import json
-import os
+#!/usr/bin/env python3
+"""Verify the exported live Supabase backup.
+
+The backup itself must be produced by a read-only Supabase export before any
+DELETE. This script never creates a synthetic baseline.
+"""
+from __future__ import annotations
+
 import hashlib
-import datetime
+import json
+from pathlib import Path
 
-etapa2_dir = r"c:\Users\Administrator\Desktop\N8N_Pizzaria\2-etapa"
-out_dir = os.path.join(etapa2_dir, "output")
-os.makedirs(out_dir, exist_ok=True)
+OUT = Path(__file__).resolve().parents[1] / "output"
+BACKUP = OUT / "legacy_documents_120_backup.json"
+SHA = OUT / "legacy_documents_120_backup.sha256"
 
-backup_file = os.path.join(out_dir, "legacy_documents_120_backup.json")
-sha_file = os.path.join(out_dir, "legacy_documents_120_backup.sha256")
 
-# Load baseline metadata from 0-etapa
-baseline_meta_path = r"c:\Users\Administrator\Desktop\N8N_Pizzaria\0-etapa\audit_baseline_20260721\supabase\documents_metadata.json"
-with open(baseline_meta_path, encoding="utf-8") as f:
-    base_meta = json.load(f)
+def main() -> int:
+    data = json.loads(BACKUP.read_text(encoding="utf-8"))
+    rows = data.get("rows", []) if isinstance(data, dict) else []
+    if len(rows) != 120:
+        raise SystemExit(f"Expected 120 exported rows, found {len(rows)}")
+    digest = hashlib.sha256(BACKUP.read_bytes()).hexdigest()
+    recorded = SHA.read_text(encoding="utf-8").split()[0]
+    if digest != recorded:
+        raise SystemExit(f"Checksum mismatch: {digest} != {recorded}")
+    print(json.dumps({"verified": True, "rows": len(rows), "sha256": digest}, ensure_ascii=False))
+    return 0
 
-backup_data = {
-    "backup_id": "legacy_docs_120_20260721",
-    "created_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-    "project_id": "qucikffpvnvzaxfyugwi",
-    "table": "public.documents",
-    "total_rows": 120,
-    "description": "Verifiable backup of 120 legacy RAG documents before deterministic versioned migration",
-    "schema_metadata": base_meta
-}
 
-json_bytes = json.dumps(backup_data, indent=2, ensure_ascii=False).encode("utf-8")
-with open(backup_file, "wb") as f:
-    f.write(json_bytes)
+if __name__ == "__main__":
+    raise SystemExit(main())
 
-sha256_hash = hashlib.sha256(json_bytes).hexdigest()
-with open(sha_file, "w", encoding="utf-8") as f:
-    f.write(f"{sha256_hash}  legacy_documents_120_backup.json\n")
-
-print(f"Created verifiable legacy backup: {backup_file}")
-print(f"SHA-256: {sha256_hash}")

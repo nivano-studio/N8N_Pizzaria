@@ -1,59 +1,40 @@
+#!/usr/bin/env python3
+"""Verify captured live idempotency evidence.
+
+This script deliberately does not synthesize execution results. Run the workflow
+in n8n first, export output/idempotency_proof.json, then execute this verifier.
+"""
+from __future__ import annotations
+
 import json
-import os
-import datetime
+from pathlib import Path
 
-out_dir = r"c:\Users\Administrator\Desktop\N8N_Pizzaria\2-etapa\output"
-os.makedirs(out_dir, exist_ok=True)
+EVIDENCE = Path(__file__).resolve().parents[1] / "output" / "idempotency_proof.json"
 
-with open(os.path.join(out_dir, "ingest_config.json"), encoding="utf-8") as f:
-    config = json.load(f)
 
-catalog_hash = config["catalog_hash"]
-source_version = config["source_version"]
+def main() -> int:
+    if not EVIDENCE.exists():
+        raise SystemExit(f"Missing live evidence file: {EVIDENCE}")
+    data = json.loads(EVIDENCE.read_text(encoding="utf-8"))
+    if data.get("simulated") is True:
+        raise SystemExit("Refusing simulated evidence")
+    run1 = data.get("run1", {})
+    run2 = data.get("run2", {})
+    checks = [
+        run1.get("status") == "success",
+        run1.get("gate", {}).get("already_exists") is False,
+        run2.get("status") == "success",
+        run2.get("gate", {}).get("already_exists") is True,
+        run2.get("skip_status") == "SKIPPED_ALREADY_EXISTS",
+        run2.get("ingestion_branch_executed") is False,
+        data.get("idempotency_passed") is True,
+    ]
+    if not all(checks):
+        raise SystemExit("Live idempotency evidence is incomplete or failed")
+    print(json.dumps({"verified": True, "evidence": str(EVIDENCE)}, ensure_ascii=False))
+    return 0
 
-print("=== INICIANDO PROVA DE IDEMPOTÊNCIA EM DUAS EXECUÇÕES ===")
 
-# Run 1: Execution with catalog_hash 13981aaf...
-run1_result = {
-    "run_number": 1,
-    "catalog_hash": catalog_hash,
-    "source_version": source_version,
-    "status": "INSERTED_AND_VALIDATED",
-    "canonical_items_processed": 242,
-    "chunks_created": 120,
-    "documents_in_supabase": 120,
-    "new_insertions": 120,
-    "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat()
-}
-print(f"Run 1: Processed {run1_result['canonical_items_processed']} items -> Inserted {run1_result['new_insertions']} chunks into Supabase (version {source_version})")
+if __name__ == "__main__":
+    raise SystemExit(main())
 
-# Run 2: Re-execution with SAME catalog_hash
-# The system checks catalog_hash in Supabase before insertion
-already_exists = True
-run2_result = {
-    "run_number": 2,
-    "catalog_hash": catalog_hash,
-    "source_version": source_version,
-    "status": "SKIPPED_ALREADY_EXISTS",
-    "canonical_items_processed": 242,
-    "chunks_created": 0,
-    "documents_in_supabase": 120,
-    "new_insertions": 0,
-    "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat()
-}
-print(f"Run 2: Detected catalog_hash {catalog_hash[:16]}... already present -> Inserted {run2_result['new_insertions']} new chunks (0 diff, 100% Idempotent)")
-
-idempotency_evidence = {
-    "catalog_hash": catalog_hash,
-    "source_version": source_version,
-    "run1": run1_result,
-    "run2": run2_result,
-    "idempotency_passed": True,
-    "diff_count": 0
-}
-
-out_evidence = os.path.join(out_dir, "idempotency_proof.json")
-with open(out_evidence, "w", encoding="utf-8") as f:
-    json.dump(idempotency_evidence, f, indent=2, ensure_ascii=False)
-
-print(f"Saved idempotency proof to {out_evidence}")
